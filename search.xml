@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/01/09/hello-world/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Others</category>
+      </categories>
+  </entry>
+  <entry>
     <title>各种测试</title>
     <url>/2022/01/16/photo/</url>
     <content><![CDATA[<span id="more"></span>
@@ -28,14 +36,6 @@
 ]]></content>
       <categories>
         <category>Academic</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/01/09/hello-world/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Others</category>
       </categories>
   </entry>
 </search>
