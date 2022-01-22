@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/01/09/hello-world/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Others</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>各种测试</title>
+    <url>/2022/01/16/photo/</url>
+    <content><![CDATA[<span id="more"></span>
+<hr>
+<p>图片上传测试<br><img src="/2022/01/16/photo/paperflower.png"></p>
+<hr>
+<p>文字方面测试<br>字号 颜色<br><font size="3" color="#ee0000"> Hello World.</font><br><font size="5" color="#66ccff"> Hello World.</font><br>居中</p>
+<center>Hello World.</center>]]></content>
+      <categories>
+        <category>Others</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>北京大学2022中学生冬令营数学试题</title>
+    <url>/2022/01/22/pku/</url>
+    <content><![CDATA[<span id="more"></span>
+<img src="/2022/01/22/pku/pku01.png">
+<img src="/2022/01/22/pku/pku02.png">
+<img src="/2022/01/22/pku/pku03.png">
+<img src="/2022/01/22/pku/pku04.png">
+]]></content>
+      <categories>
+        <category>Academic</category>
+      </categories>
+  </entry>
+</search>
