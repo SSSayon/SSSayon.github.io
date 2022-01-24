@@ -34,12 +34,12 @@
     <link href="http://example.com/2022/01/22/pku/"/>
     <id>http://example.com/2022/01/22/pku/</id>
     <published>2022-01-22T04:58:50.224Z</published>
-    <updated>2022-01-24T10:50:29.698Z</updated>
+    <updated>2022-01-24T10:51:27.840Z</updated>
     
-    <content type="html"><![CDATA[<center>北京大学2022中学生冬令营数学试题</center><span id="more"></span><img src="/2022/01/22/pku/pku01.png"><img src="/2022/01/22/pku/pku02.png"><img src="/2022/01/22/pku/pku03.png"><img src="/2022/01/22/pku/pku04.png">]]></content>
+    <content type="html"><![CDATA[<p>北京大学2022中学生冬令营数学试题</p><span id="more"></span><img src="/2022/01/22/pku/pku01.png"><img src="/2022/01/22/pku/pku02.png"><img src="/2022/01/22/pku/pku03.png"><img src="/2022/01/22/pku/pku04.png">]]></content>
     
     
-    <summary type="html">&lt;center&gt;北京大学2022中学生冬令营数学试题&lt;/center&gt;</summary>
+    <summary type="html">&lt;p&gt;北京大学2022中学生冬令营数学试题&lt;/p&gt;</summary>
     
     
     
@@ -53,12 +53,12 @@
     <link href="http://example.com/2022/01/16/photo/"/>
     <id>http://example.com/2022/01/16/photo/</id>
     <published>2022-01-16T03:49:18.516Z</published>
-    <updated>2022-01-22T10:43:49.591Z</updated>
+    <updated>2022-01-24T10:53:17.495Z</updated>
     
-    <content type="html"><![CDATA[<center>各种测试</center><span id="more"></span><hr><p>图片上传测试<br><img src="/2022/01/16/photo/paperflower.png"></p><hr><p>文字方面测试<br>字号 颜色<br><font size="3" color="#ee0000"> Hello World.</font><br><font size="5" color="#66ccff"> Hello World.</font><br>居中</p><center>Hello World.</center>]]></content>
+    <content type="html"><![CDATA[<p>各种测试</p><span id="more"></span><hr><p>图片上传测试<br><img src="/2022/01/16/photo/paperflower.png"></p><hr><p>文字方面测试<br>字号 颜色<br><font size="3" color="#ee0000"> Hello World.</font><br><font size="5" color="#66ccff"> Hello World.</font><br>居中</p><center>Hello World.</center>]]></content>
     
     
-    <summary type="html">&lt;center&gt;各种测试&lt;/center&gt;</summary>
+    <summary type="html">&lt;p&gt;各种测试&lt;/p&gt;</summary>
     
     
     
