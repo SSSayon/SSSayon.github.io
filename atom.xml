@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-27T12:34:19.269Z</updated>
+  <updated>2022-01-27T12:44:47.078Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>浙江生物选考 笔记分享</title>
+    <link href="http://example.com/2022/01/27/bionotes/"/>
+    <id>http://example.com/2022/01/27/bionotes/</id>
+    <published>2022-01-27T12:39:47.000Z</published>
+    <updated>2022-01-27T12:44:47.078Z</updated>
+    
+    <content type="html"><![CDATA[<p>↓↓↓</p><span id="more"></span><p><del>择日，择日x</del><br>等有空进行一个笔记的传。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;↓↓↓&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Academic" scheme="http://example.com/categories/Academic/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>浙江物理选考 笔记分享</title>
+    <link href="http://example.com/2022/01/27/phynotes/"/>
+    <id>http://example.com/2022/01/27/phynotes/</id>
+    <published>2022-01-27T12:39:33.000Z</published>
+    <updated>2022-01-27T12:44:43.879Z</updated>
+    
+    <content type="html"><![CDATA[<p>↓↓↓</p><span id="more"></span><p><del>择日，择日x</del><br>等有空进行一个笔记的传。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;↓↓↓&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Academic" scheme="http://example.com/categories/Academic/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>2022年1月浙江首考部分试题下载</title>
@@ -59,9 +97,9 @@
     <link href="http://example.com/2022/01/22/pku/"/>
     <id>http://example.com/2022/01/22/pku/</id>
     <published>2022-01-22T04:58:50.224Z</published>
-    <updated>2022-01-25T03:43:52.749Z</updated>
+    <updated>2022-01-27T12:41:32.136Z</updated>
     
-    <content type="html"><![CDATA[<p>北京大学2022中学生冬令营数学试题</p><span id="more"></span><p><img src="/2022/01/22/pku/pku01.png"><br><img src="/2022/01/22/pku/pku02.png"><br><img src="/2022/01/22/pku/pku03.png"><br><img src="/2022/01/22/pku/pku04.png"></p>]]></content>
+    <content type="html"><![CDATA[<p>北京大学2022中学生冬令营数学试题</p><span id="more"></span><p>下载pdf原稿（无水印）见文末。</p><p><img src="/2022/01/22/pku/pku01.png"><br><img src="/2022/01/22/pku/pku02.png"><br><img src="/2022/01/22/pku/pku03.png"><br><img src="/2022/01/22/pku/pku04.png"></p><p><a href="pku.pdf">戳这里下载！</a></p>]]></content>
     
     
     <summary type="html">&lt;p&gt;北京大学2022中学生冬令营数学试题&lt;/p&gt;</summary>
