@@ -5,9 +5,6 @@
     <url>/2022/01/24/202201phy/</url>
     <content><![CDATA[<p>2022年1月浙江省普通高等学校招生全国统一考试物理(选考)试题解析<br>本文含较多图片及以LaTeX渲染的数学公式，首次加载时间较长，请耐心等候！<br>推荐使用PC端阅读。</p>
 <span id="more"></span>
-<hr>
-<p>碎碎念(bushi<br>你看到的：<br><img src="/2022/01/24/202201phy/000.png"><br>我看到的：<br><img src="/2022/01/24/202201phy/001.png"><br>_(:з」∠)_</p>
-<hr>
 <h2 id="正文部分"><a href="#正文部分" class="headerlink" title="正文部分"></a>正文部分</h2><p><img src="/2022/01/24/202201phy/1.png"><br>1.A </p>
 <script type="math/tex; mode=display">F=\frac{W}{l}</script><hr>
 <p><img src="/2022/01/24/202201phy/2.png"><br>2.B<br>B.如发旋转球</p>
@@ -188,7 +185,7 @@ $$ E=\frac{1}{2} B_{1} \omega r^{2} \quad $$
 解得$$\sqrt{\frac{2 e U}{m}} \leqslant v_{O} \leqslant \sqrt{\frac{2\left(h_{v}+e U-W_{0}\right)}{m}}$$
 
 
-(2) 要看出Ⅰ是一个速度选择器！（电场力向外，磁场力向里，要能使电子在纸面内~~安全~~通过那就得二力平衡）
+(2) 要看出Ⅰ是一个速度选择器！（电场力向外，磁场力向里，要能使电子在纸面内通过那就得二力平衡）
 由$$\quad e v_{0} B_{1}=e E \quad $$ 
 
 得$$v_{O}=\frac{E}{B_{1}}=\sqrt{\frac{3 e U}{m}}$$ 
@@ -224,9 +221,10 @@ $v_{\mathrm{M}} \sin \beta=v_{O} \sin \alpha$
 <p>解得 <script type="math/tex">B_{2 \max }=\frac{2 \sqrt{2 m\left(h v-W_{0}\right)}}{e a}</script></p>
 <font size="1" color="#ee0000">【最后把E和B的答案和第二小题题干中的数据比对一样，如果形式一致（其实就是比对量纲），那说明你在</font><font size="2" color="#ee0000">庞大</font><font size="1" color="#ee0000">的字母运算中没有漏抄什么】</font>
 
-
 <hr>
-<font color="#66ccff">解析人：Ljs。 本文遵守CC BY-SA 4.0 协议，转载请注明出处！</font>
+<p>碎碎念(bushi<br>你看到的：<br><img src="/2022/01/24/202201phy/000.png"><br>我看到的：<br><img src="/2022/01/24/202201phy/001.png"><br>_(:з」∠)_</p>
+<hr>
+<font color="#66ccff"> 本文遵守 CC BY-SA 4.0 协议，转载请注明出处！</font>
 ]]></content>
       <categories>
         <category>Academic</category>
