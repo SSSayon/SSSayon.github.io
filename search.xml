@@ -77,28 +77,26 @@
 <hr>
 <p><img src="/2022/01/24/0106phy/11.png"><br>11.B<br>A.C.等于（反射，反射角和入射角相等）<br>B.<font color="#ee0000"> 不妨这样想：入射角从<script type="math/tex">0^{\circ} \rightarrow 90^{\circ}</script> ，反射角只能从<script type="math/tex">0^{\circ} \rightarrow C</script>(临界角) ，入射角比反射角变得快 </font><br>D.由B知小于</p>
 <hr>
-<p><img src="/2022/01/24/0106phy/12.png"><br>12.D<br>A.B.考虑1s,有2kg水。$W=E_{p}+E_{k}=75J+225J=300J$<br>C.D.一定要想清楚你的研究对象是谁！<br>C.”电动机的输出功率等于水泵所需要的输入功率”，<font color="#ee0000"> 对 <del>水泵</del> 电动机 </font> ，水泵输入功率=电动机输出功率&lt;电动机输入功率=440W<br>D.<font color="#ee0000">对电动机</font> ，输入440W，输出300W/(75%)=400W，故热功率<script type="math/tex">P=40 W=I^{2} R</script>，解得 <script type="math/tex">R=10\Omega</script></p>
+<p><img src="/2022/01/24/0106phy/12.png"><br>12.D<br>A.B.考虑1s,有2kg水。$W=E_{p}+E_{k}=75J+225J=300J$<br>C.D.一定要想清楚你的研究对象是谁！<br>C. “电动机的输出功率等于水泵所需要的输入功率”，<font color="#ee0000"> 对 <del>水泵</del> 电动机 </font> ，水泵输入功率=电动机输出功率&lt;电动机输入功率=440W<br>D.<font color="#ee0000">对电动机</font> ，输入440W，输出300W/(75%)=400W，故热功率<script type="math/tex">P=40 W=I^{2} R</script>，解得 <script type="math/tex">R=10\Omega</script></p>
 <hr>
-<p><img src="/2022/01/24/0106phy/13.png"><br>13.C <font color="#ee0000">要通过判断电流流向来确定等效电阻R的计算式。</font><br>A.顺时针<br>B.</p>
-<script type="math/tex; mode=display">\varepsilon=\frac{\Delta B}{\Delta t} \cdot S=k \cdot \pi r^{2}</script><script type="math/tex; mode=display">R=\rho \frac{L}{S}=\rho \frac{2 \pi r}{h d}</script><p>故 </p>
+<p><img src="/2022/01/24/0106phy/13.png"><br>13.C <font color="#ee0000">要通过判断电流流向来确定等效电阻R的计算式。</font><br>A.顺时针<br>B.<center> $\varepsilon=\frac{\Delta B}{\Delta t} \cdot S=k \cdot \pi r^{2}$ </center><br>C.由</p>
+<script type="math/tex; mode=display">R=\rho \frac{L}{S}=\rho \frac{2 \pi r}{h d}</script><p>得</p>
 <script type="math/tex; mode=display">P=\frac{\varepsilon^{2}}{R}=\frac{\pi d h k^{2} r^{3}}{2 \rho}</script><p>D.安培力各向抵消，则拉力始终等于重力</p>
 <hr>
-<p><img src="/2022/01/24/0106phy/14.png"><br>14.CD<br>A.核裂变<br>B.<font color="#ee0000">题干疯狂暗示, “提高能源利用率”“供热”</font>，故m&gt;&gt;27.6kg</p>
-<p>C.D.对</p>
+<p><img src="/2022/01/24/0106phy/14.png"><br>14.CD<br>A.核裂变<br>B.<font color="#ee0000">题干疯狂暗示, “提高能源利用率”“供热”</font>，故m&gt;&gt;27.6kg<br>C.D.对</p>
 <hr>
 <p><img src="/2022/01/24/0106phy/15.png"><br>15.BD<br>老老实实画四张图就行了，注意C中形状正确，但波谷应更低</p>
 <hr>
 <p><img src="/2022/01/24/0106phy/16.png"><br>16.BD</p>
-<p>A.$ E_{k}=\frac{p^{2}}{2 m}=8.0 \times  10^{-17} J $</p>
-<p>B.$ \lambda=\frac{h}{p}=5.5 \times 10^{-11} \mathrm{~m} $</p>
+<p>A. $ E_{k}=\frac{p^{2}}{2 m}=8.0 \times  10^{-17} J $</p>
+<p>B. $ \lambda=\frac{h}{p}=5.5 \times 10^{-11} \mathrm{~m} $</p>
 <p>C.D.波动性的体现并不依赖于粒子性</p>
 <hr>
 <p><img src="/2022/01/24/0106phy/17(1).png"><br>17(1).①C<br>②D<br>③确保多次运动的轨迹相同 </p>
-<p><img src="/2022/01/24/0106phy/17(2).png"><br>(2).①C </p>
-<p>②0.200 </p>
-<p>碰撞前p=0.202，碰撞后pA=0.040，pB=0.240；动量不可能增加，故p’=pB<font color="#ee0000">-</font>pA=0.200</p>
+<p><img src="/2022/01/24/0106phy/17(2).png"><br>(2).①C<br>②0.200<br>碰撞前p=0.202，碰撞后pA=0.040，pB=0.240；动量不可能增加，故p’=pB<font color="#ee0000">-</font>pA=0.200</p>
 <hr>
-<p><img src="/2022/01/24/0106phy/18.png"><br>18.(1)0~20Ω<br>(2)1.31~1.34<br>(3) $0.96 \times 10^{-6} \sim 1.0 \times 10^{-6}$<br>(4)小于<br>（斜率相当于是电阻的反映，甲电阻大，故甲横截面积小）</p>
+<p><img src="/2022/01/24/0106phy/18.png"><br>18.(1)0~20Ω  ；<br>(2)1.31~1.34 ；<br>(3)$0.96 \times 10^{-6} \sim 1.0 \times 10^{-6}$ ；</p>
+<p>(4)小于。（斜率相当于是电阻的反映，甲电阻大，故甲横截面积小）</p>
 <hr>
 <p><img src="/2022/01/24/0106phy/19.png"><br>19.(1) $A B$ 段，由</p>
 <script type="math/tex; mode=display">v_{1}^{2}=2 a_{1} x_{1}</script><p>解得 </p>
@@ -118,11 +116,11 @@
 <script type="math/tex; mode=display">m g l_{x} \sin 37^{\circ}-4 m g R \cos 37^{\circ}=\frac{1}{2} m v^{2}</script><p>解得</p>
 <script type="math/tex; mode=display">v=\sqrt{12 l_{x}-9.6} ( l_{x} \geqslant 0.85 \mathrm{~m} ）</script><p>(3) 设摩擦力做功为第一次到达中点时的$n$倍。<br>由</p>
 <script type="math/tex; mode=display">m g l_{x} \sin 37^{\circ}-m g \frac{l_{\mathrm{FG}}}{2} \sin 37^{\circ}-n_{\mu} m g \frac{l_{\mathrm{FG}}}{2} \cos 37^{\circ}=0</script><p>解得 </p>
-<script type="math/tex; mode=display">l_{x}=\frac{7 n+6}{15} (h_{n} \leqslant 3 \mathrm{~m})</script><p>对n一一列举，</p>
+<script type="math/tex; mode=display">l_{x}=\frac{7 n+6}{15} (h_{n} \leqslant 3 \mathrm{~m})</script><p>对n一一列举，（但n一定是奇数，画图便知。）</p>
 <script type="math/tex; mode=display">\text { 当 } n=1 \text { 时, } l_{x 1}=\frac{13}{15} \mathrm{~m}</script><script type="math/tex; mode=display">\text { 当 } n=3 \text { 时, } l_{x 2}=\frac{27}{15} \mathrm{~m}</script><script type="math/tex; mode=display">\text { 当 } n=5 \text { 时, } l_{x 3}=\frac{41}{15} \mathrm{~m}</script><hr>
 <p><img src="/2022/01/24/0106phy/21.png"><br>21.(1)M带正电<br>由 </p>
 <script type="math/tex; mode=display">E=\frac{1}{2} B_{1} \omega r^{2} \quad</script><p>得 </p>
-<script type="math/tex; mode=display">Q=C U=C frac{E}{2}=0.54 \mathrm{C}</script><p>(电容器接在电源两端，两侧电压为路端电压)</p>
+<script type="math/tex; mode=display">Q=C U=C \frac{E}{2}=0.54 \mathrm{C}</script><p>(电容器接在电源两端，两侧电压为路端电压)</p>
 <p>(2)放电 </p>
 <script type="math/tex; mode=display">B_{2} l_{1} \Delta Q=m v_{1}</script><p>碰撞 </p>
 <script type="math/tex; mode=display">m v_{1}=(m+m) v_{2}</script><p>上升至最高</p>
@@ -135,7 +133,7 @@
 <script type="math/tex; mode=display">- \frac{B_{2}^{2} l_{1}^{2} x_{3}}{2 R}=2 m (0 - v_{3}）</script><p>得</p>
 <script type="math/tex; mode=display">x_{3}=0.048 \mathrm{~m} < l_{3}</script><p>假设成立，故</p>
 <script type="math/tex; mode=display">x=x_{1} + x_{2} + x_{3}=0.14 \mathrm{~m}</script><hr>
-<p><img src="/2022/01/24/0106phy/22.png"><br>22.<font color="#ee0000">个人觉得是全卷最大亮点</font>（虽然光电效应是硬生生为了考察而考，用粒子发生装置之类的代替更加简洁明了）<br>(1) 光电效应方程 </p>
+<p><img src="/2022/01/24/0106phy/22.png"><br>22.<font color="#ee0000">个人觉得是全卷最大亮点</font><br>(1) 光电效应方程 </p>
 <script type="math/tex; mode=display">E_{\mathrm{km}}=h v-W_{0}</script><p>由</p>
 <script type="math/tex; mode=display">\frac{1}{2} m v_{O}^{2}=E_{\mathrm{k}}+e U \quad\left(0 \leqslant E_{\mathrm{k}} \leqslant E_{\mathrm{km}}\right)</script><p>解得</p>
 <script type="math/tex; mode=display">\sqrt{\frac{2 e U}{m}} \leqslant v_{O} \leqslant \sqrt{\frac{2\left(h_{v}+e U-W_{0}\right)}{m}}</script><p>(2) 要看出Ⅰ是一个速度选择器！（电场力向外，磁场力向里，要能使电子在纸面内通过那就得二力平衡）<br>由</p>
