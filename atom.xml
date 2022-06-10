@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-06-10T05:58:06.070Z</updated>
+  <updated>2022-06-10T15:08:30.474Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2022年6月浙江高考数学试卷及T22四种解答</title>
+    <link href="http://example.com/2022/06/10/202206Math/"/>
+    <id>http://example.com/2022/06/10/202206Math/</id>
+    <published>2022-06-10T15:00:29.000Z</published>
+    <updated>2022-06-10T15:08:30.474Z</updated>
+    
+    <content type="html"><![CDATA[<p>↓↓↓</p><span id="more"></span><hr><p>pdf原稿戳文末下载！</p><p>试题卷<font size="1" color="#ee0000">(重修by 水神 ) </font><br><img src="/2022/06/10/202206Math/2022_00.png"><br><img src="/2022/06/10/202206Math/2022_01.png"><br><img src="/2022/06/10/202206Math/2022_02.png"><br><img src="/2022/06/10/202206Math/2022_03.png"></p><p>T22解答<br><img src="/2022/06/10/202206Math/T22_00.png"><br><img src="/2022/06/10/202206Math/T22_01.png"><br><img src="/2022/06/10/202206Math/T22_02.png"><br><img src="/2022/06/10/202206Math/T22_03.png"><br><img src="/2022/06/10/202206Math/T22_04.png"><br><img src="/2022/06/10/202206Math/T22_05.png"></p><p>pdf下载:<br>1.<a href="2022.pdf">试题卷</a><br>2.<a href="T22.pdf">T22解答</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;↓↓↓&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Academic" scheme="http://example.com/categories/Academic/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>【置底】临时文件库</title>
@@ -40,9 +59,9 @@
     <link href="http://example.com/2022/01/27/bionotes/"/>
     <id>http://example.com/2022/01/27/bionotes/</id>
     <published>2022-01-27T12:39:47.000Z</published>
-    <updated>2022-06-10T05:44:15.536Z</updated>
+    <updated>2022-06-10T14:55:11.743Z</updated>
     
-    <content type="html"><![CDATA[<p>↓↓↓</p><span id="more"></span><hr><p>↓电子课本（课本忘带回家了什么的）↓<br><a href="001.pdf">必修一</a> · <a href="002.pdf">必修二</a> · <a href="003.pdf">必修三</a> · <a href="004.pdf">选修一</a> · <a href="005.pdf">选修三</a> · 【老教材！！】</p><hr><p>我的笔记 ~<br><a href="bionotes.pdf">生物笔记</a></p><p>禁止任何形式的传播。</p><hr><font color="#66ccff"> 本文遵守 CC BY-SA 4.0 协议，转载请注明出处！</font>]]></content>
+    <content type="html"><![CDATA[<p>↓↓↓</p><span id="more"></span><hr><p>我的笔记 ~<br><a href="bionotes.pdf">生物笔记</a></p><p>禁止任何形式的传播。</p><hr><font color="#66ccff"> 本文遵守 CC BY-SA 4.0 协议，转载请注明出处！</font>]]></content>
     
     
     <summary type="html">&lt;p&gt;↓↓↓&lt;/p&gt;</summary>
@@ -97,12 +116,12 @@
     <link href="http://example.com/2022/01/22/pku/"/>
     <id>http://example.com/2022/01/22/pku/</id>
     <published>2022-01-22T04:58:50.224Z</published>
-    <updated>2022-06-10T05:44:15.537Z</updated>
+    <updated>2022-06-10T14:59:25.700Z</updated>
     
-    <content type="html"><![CDATA[<p>北京大学2022中学生冬令营数学试题</p><span id="more"></span><p>下载pdf原稿（无水印）见文末。</p><p><img src="/2022/01/22/pku/pku01.png"><br><img src="/2022/01/22/pku/pku02.png"><br><img src="/2022/01/22/pku/pku03.png"><br><img src="/2022/01/22/pku/pku04.png"></p><p><a href="pku.pdf">戳这里下载！</a></p><hr><font color="#66ccff"> 本文遵守 CC BY-SA 4.0 协议，转载请注明出处！</font>]]></content>
+    <content type="html"><![CDATA[<p>北京大学2022中学生冬令营数学试题（无差错精校版）</p><span id="more"></span><p>pdf原稿戳文末下载！</p><p><img src="/2022/01/22/pku/pku01.png"><br><img src="/2022/01/22/pku/pku02.png"><br><img src="/2022/01/22/pku/pku03.png"><br><img src="/2022/01/22/pku/pku04.png"></p><p><a href="pku.pdf">戳这里下载！</a></p><hr><font color="#66ccff"> 本文遵守 CC BY-SA 4.0 协议，转载请注明出处！</font>]]></content>
     
     
-    <summary type="html">&lt;p&gt;北京大学2022中学生冬令营数学试题&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;北京大学2022中学生冬令营数学试题（无差错精校版）&lt;/p&gt;</summary>
     
     
     
