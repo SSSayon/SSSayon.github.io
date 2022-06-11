@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-06-10T15:08:30.474Z</updated>
+  <updated>2022-06-11T04:55:35.414Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2022/06/10/202206Math/"/>
     <id>http://example.com/2022/06/10/202206Math/</id>
     <published>2022-06-10T15:00:29.000Z</published>
-    <updated>2022-06-10T15:08:30.474Z</updated>
+    <updated>2022-06-11T04:55:35.414Z</updated>
     
-    <content type="html"><![CDATA[<p>↓↓↓</p><span id="more"></span><hr><p>pdf原稿戳文末下载！</p><p>试题卷<font size="1" color="#ee0000">(重修by 水神 ) </font><br><img src="/2022/06/10/202206Math/2022_00.png"><br><img src="/2022/06/10/202206Math/2022_01.png"><br><img src="/2022/06/10/202206Math/2022_02.png"><br><img src="/2022/06/10/202206Math/2022_03.png"></p><p>T22解答<br><img src="/2022/06/10/202206Math/T22_00.png"><br><img src="/2022/06/10/202206Math/T22_01.png"><br><img src="/2022/06/10/202206Math/T22_02.png"><br><img src="/2022/06/10/202206Math/T22_03.png"><br><img src="/2022/06/10/202206Math/T22_04.png"><br><img src="/2022/06/10/202206Math/T22_05.png"></p><p>pdf下载:<br>1.<a href="2022.pdf">试题卷</a><br>2.<a href="T22.pdf">T22解答</a></p>]]></content>
+    <content type="html"><![CDATA[<p>↓↓↓</p><span id="more"></span><hr><p>pdf原稿戳文末下载！</p><p>试题卷<font size="1" color="#ee0000">(重修by 水神 ) </font><br><img src="/2022/06/10/202206Math/2022_00.png"><br><img src="/2022/06/10/202206Math/2022_01.png"><br><img src="/2022/06/10/202206Math/2022_02.png"><br><img src="/2022/06/10/202206Math/2022_03.png"></p><p>T22解答<br><img src="/2022/06/10/202206Math/22_00.png"><br><img src="/2022/06/10/202206Math/22_01.png"><br><img src="/2022/06/10/202206Math/22_02.png"><br><img src="/2022/06/10/202206Math/22_03.png"><br><img src="/2022/06/10/202206Math/22_04.png"><br><img src="/2022/06/10/202206Math/22_05.png"></p><p>pdf下载:<br>1.<a href="2022.pdf">试题卷</a><br>2.<a href="T22.pdf">T22解答</a></p>]]></content>
     
     
     <summary type="html">&lt;p&gt;↓↓↓&lt;/p&gt;</summary>
