@@ -234,13 +234,6 @@
             </span>
 
           
-            <span id="/2022/01/27/notes/" class="post-meta-item leancloud_visitors" data-flag-title="数/物/化/生 高中笔记分享" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
             <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
@@ -589,14 +582,14 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
     new Valine({
       el         : '#valine-comments',
       verify     : false,
-      notify     : true,
+      notify     : false,
       appId      : 'kzwn95R7bxHF76KTXCnqlMIs-gzGzoHsz',
       appKey     : 'nkx5iYaYX6TFDWuN6GA23g7t',
       placeholder: "没有github账号? 来这里畅所欲言!",
       avatar     : 'mm',
       meta       : guest,
       pageSize   : '10' || 10,
-      visitor    : true,
+      visitor    : false,
       lang       : 'zh-cn' || 'zh-cn',
       path       : location.pathname,
       recordIP   : true,
