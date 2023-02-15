@@ -3,11 +3,11 @@
   <title>还没想好叫什么</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://sssayon.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://sssayon.github.io/"/>
   <updated>2023-01-20T04:38:45.749Z</updated>
-  <id>http://example.com/</id>
+  <id>https://sssayon.github.io/</id>
   
   <author>
     <name>Sayon</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>强基计划流程及建议</title>
-    <link href="http://example.com/2023/01/18/qiangji/"/>
-    <id>http://example.com/2023/01/18/qiangji/</id>
+    <link href="https://sssayon.github.io/2023/01/18/qiangji/"/>
+    <id>https://sssayon.github.io/2023/01/18/qiangji/</id>
     <published>2023-01-18T12:37:26.000Z</published>
     <updated>2023-01-20T04:38:45.749Z</updated>
     
@@ -30,15 +30,15 @@
     
     
     
-    <category term="Academic_pre" scheme="http://example.com/categories/Academic-pre/"/>
+    <category term="Academic_pre" scheme="https://sssayon.github.io/categories/Academic-pre/"/>
     
     
   </entry>
   
   <entry>
     <title>致理书院介绍</title>
-    <link href="http://example.com/2023/01/18/zhili/"/>
-    <id>http://example.com/2023/01/18/zhili/</id>
+    <link href="https://sssayon.github.io/2023/01/18/zhili/"/>
+    <id>https://sssayon.github.io/2023/01/18/zhili/</id>
     <published>2023-01-18T10:58:08.000Z</published>
     <updated>2023-01-20T04:38:46.428Z</updated>
     
@@ -49,15 +49,15 @@
     
     
     
-    <category term="THU_non_academic" scheme="http://example.com/categories/THU-non-academic/"/>
+    <category term="THU_non_academic" scheme="https://sssayon.github.io/categories/THU-non-academic/"/>
     
     
   </entry>
   
   <entry>
     <title>【置底】临时文件库</title>
-    <link href="http://example.com/2022/04/24/trans/"/>
-    <id>http://example.com/2022/04/24/trans/</id>
+    <link href="https://sssayon.github.io/2022/04/24/trans/"/>
+    <id>https://sssayon.github.io/2022/04/24/trans/</id>
     <published>2022-04-24T14:27:18.000Z</published>
     <updated>2023-01-18T12:04:04.490Z</updated>
     
@@ -68,15 +68,15 @@
     
     
     
-    <category term="Others" scheme="http://example.com/categories/Others/"/>
+    <category term="Others" scheme="https://sssayon.github.io/categories/Others/"/>
     
     
   </entry>
   
   <entry>
     <title>数/物/化/生 高中笔记分享</title>
-    <link href="http://example.com/2022/01/27/notes/"/>
-    <id>http://example.com/2022/01/27/notes/</id>
+    <link href="https://sssayon.github.io/2022/01/27/notes/"/>
+    <id>https://sssayon.github.io/2022/01/27/notes/</id>
     <published>2022-01-27T12:39:33.000Z</published>
     <updated>2023-01-19T11:17:17.874Z</updated>
     
@@ -87,15 +87,15 @@
     
     
     
-    <category term="Academic_pre" scheme="http://example.com/categories/Academic-pre/"/>
+    <category term="Academic_pre" scheme="https://sssayon.github.io/categories/Academic-pre/"/>
     
     
   </entry>
   
   <entry>
     <title>2022年1月浙江省普通高等学校招生全国统一考试物理(选考)试题解析</title>
-    <link href="http://example.com/2022/01/24/0106phy/"/>
-    <id>http://example.com/2022/01/24/0106phy/</id>
+    <link href="https://sssayon.github.io/2022/01/24/0106phy/"/>
+    <id>https://sssayon.github.io/2022/01/24/0106phy/</id>
     <published>2022-01-24T12:37:13.000Z</published>
     <updated>2023-01-18T12:13:05.681Z</updated>
     
@@ -106,22 +106,22 @@
     
     
     
-    <category term="Academic_pre" scheme="http://example.com/categories/Academic-pre/"/>
+    <category term="Academic_pre" scheme="https://sssayon.github.io/categories/Academic-pre/"/>
     
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2022/01/08/hello-world/"/>
-    <id>http://example.com/2022/01/08/hello-world/</id>
+    <link href="https://sssayon.github.io/2022/01/08/hello-world/"/>
+    <id>https://sssayon.github.io/2022/01/08/hello-world/</id>
     <published>2022-01-08T13:25:43.000Z</published>
     <updated>2023-01-18T12:04:14.124Z</updated>
     
     
     
     
-    <category term="Others" scheme="http://example.com/categories/Others/"/>
+    <category term="Others" scheme="https://sssayon.github.io/categories/Others/"/>
     
     
   </entry>
