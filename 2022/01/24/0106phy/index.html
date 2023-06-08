@@ -316,7 +316,7 @@
 <hr>
 <p><img src="/2022/01/24/0106phy/11.png"><br>11.B<br>A.C.等于（反射，反射角和入射角相等）<br>B.<font color="#ee0000"> 不妨这样想：入射角从<script type="math/tex">0^{\circ} \rightarrow 90^{\circ}</script> ，反射角只能从<script type="math/tex">0^{\circ} \rightarrow C</script>(临界角) ，入射角比反射角变得快 </font><br>D.由B知小于</p>
 <hr>
-<p><img src="/2022/01/24/0106phy/12.png"><br>12.D<br>A.B.考虑1s,有2kg水。$W=E_{p}+E_{k}=75J+225J=300J$<br>C.D.一定要想清楚你的研究对象是谁！<br>C. “电动机的输出功率等于水泵所需要的输入功率”，<font color="#ee0000"> 对 <del>水泵</del> 电动机 </font> ，水泵输入功率=电动机输出功率&lt;电动机输入功率=440W<br>D.<font color="#ee0000">对电动机</font> ，输入440W，输出300W/(75%)=400W，故热功率<script type="math/tex">P=40 W=I^{2} R</script>，解得 <script type="math/tex">R=10\Omega</script></p>
+<p><img src="/2022/01/24/0106phy/12.png"><br>12.D<br>A.B.考虑1s,有2kg水。$W=E<em>{p}+E</em>{k}=75J+225J=300J$<br>C.D.一定要想清楚你的研究对象是谁！<br>C. “电动机的输出功率等于水泵所需要的输入功率”，<font color="#ee0000"> 对 <del>水泵</del> 电动机 </font> ，水泵输入功率=电动机输出功率&lt;电动机输入功率=440W<br>D.<font color="#ee0000">对电动机</font> ，输入440W，输出300W/(75%)=400W，故热功率<script type="math/tex">P=40 W=I^{2} R</script>，解得 <script type="math/tex">R=10\Omega</script></p>
 <hr>
 <p><img src="/2022/01/24/0106phy/13.png"><br>13.C <font color="#ee0000">要通过判断电流流向来确定等效电阻R的计算式。</font><br>A.顺时针<br>B.<center> $\varepsilon=\frac{\Delta B}{\Delta t} \cdot S=k \cdot \pi r^{2}$ </center><br>C.由</p>
 <script type="math/tex; mode=display">R=\rho \frac{L}{S}=\rho \frac{2 \pi r}{h d}</script><p>得</p>
@@ -386,7 +386,7 @@
 <script type="math/tex; mode=display">\sin \beta=\frac{1}{2} , \beta=30^{\circ}</script><p>(3) ①E最大即速度最大，对应以$E_{\mathrm{km}}$逸出的电子</p>
 <p>由(1)(2)易得</p>
 <script type="math/tex; mode=display">\quad E_{\max }=B_{1} \sqrt{\frac{2\left(h v+e U-W_{0}\right)}{m}}</script><p>②B最大即半径最小，则速度偏角最大，则y分量最大，对应以$E_{\mathrm{km}}$且<font color="#ee0000">沿y方向</font>逸出的电子</p>
-<p>由(1)(2)及 <font color="#ee0000">$v_{M}=v_{My}=v_{Oy}=v_{O} \sin \alpha \leqslant \sqrt{\frac{2\left(h v-W_{0}\right)}{m}}$ </font></p>
+<p>由(1)(2)及 <font color="#ee0000">$v<em>{M}=v</em>{My}=v<em>{Oy}=v</em>{O} \sin \alpha \leqslant \sqrt{\frac{2\left(h v-W_{0}\right)}{m}}$ </font></p>
 <p>解得 </p>
 <script type="math/tex; mode=display">B_{2 \max }=\frac{2 \sqrt{2 m\left(h v-W_{0}\right)}}{e a}</script><font size="1" color="#ee0000">【最后把E和B的答案和第二小题题干中的数据比对一样，如果形式一致（其实就是比对量纲），那说明你在**庞大**的字母运算中没有漏抄什么】</font>
 
@@ -725,26 +725,6 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
 
   
 
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID    : '30929131df9db9458939',
-      clientSecret: '84d0524f1eb9574b1c04fcfe224fe6a750758dda',
-      repo        : 'cmt',
-      owner       : 'SSSayon',
-      admin       : ['SSSayon'],
-      id          : 'd8d128d9b6fe8102e4d907760c6d6a8f',
-        language: 'zh-CN',
-      distractionFreeMode: true
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
-});
-</script>
-
 
 <script>
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
@@ -771,6 +751,26 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       serverURLs : ''
     });
   }, window.Valine);
+});
+</script>
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '30929131df9db9458939',
+      clientSecret: '84d0524f1eb9574b1c04fcfe224fe6a750758dda',
+      repo        : 'cmt',
+      owner       : 'SSSayon',
+      admin       : ['SSSayon'],
+      id          : 'd8d128d9b6fe8102e4d907760c6d6a8f',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
 });
 </script>
 
