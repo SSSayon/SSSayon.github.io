@@ -1,185 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>2022年1月浙江省普通高等学校招生全国统一考试物理(选考)试题解析</title>
-    <url>/2022/01/24/0106phy/</url>
-    <content><![CDATA[<p>2022年1月浙江省普通高等学校招生全国统一考试物理(选考)试题解析<br>本文含较多图片及公式，首次加载时间可能较长。</p>
-<span id="more"></span>
-<h2 id="正文部分"><a href="#正文部分" class="headerlink" title="正文部分"></a>正文部分</h2><p><img src="/2022/01/24/0106phy/1.png"><br>1.A </p>
-<script type="math/tex; mode=display">F=\frac{W}{l}</script><hr>
-<p><img src="/2022/01/24/0106phy/2.png"><br>2.B<br>B.如发旋转球</p>
-<hr>
-<p><img src="/2022/01/24/0106phy/3.png"><br>3.B</p>
-<script type="math/tex; mode=display">F=B I L</script><hr>
-<p><img src="/2022/01/24/0106phy/4.png"><br>4.D<br>不做解释。</p>
-<hr>
-<p><img src="/2022/01/24/0106phy/5.png"><br>5.B<br>由 <script type="math/tex">\operatorname{T} \cos \theta-\mu(m g-\operatorname{Tsin}\theta)=0</script><br>得<script type="math/tex">\operatorname{T}=\frac{\mu m g}{\cos \theta+\mu \sin \theta}</script><br>（注意问的是<font color="#ee0000">合</font>拉力）</p>
-<hr>
-<p><img src="/2022/01/24/0106phy/6.png"><br>6.B<br>不做解释。</p>
-<hr>
-<p><img src="/2022/01/24/0106phy/7.png"><br>7.D<br>对P、Q整体，由二力平衡知D成立。</p>
-<hr>
-<p><img src="/2022/01/24/0106phy/8.png"><br>8.C<br>A.脱离地球引力，则<script type="math/tex">v \geqslant 11.2 \mathrm{~km} / \mathrm{s}</script> </p>
-<p>B.半个周期，且周期大于地球公转周期12个月<br>C.由开普勒第三定律知成立<br>D.在地火转移轨道Q点速度 小于 在火星轨道Q点速度(因为要加速变轨) 小于 在地球轨道速度(开三) </p>
-<hr>
-<p><img src="/2022/01/24/0106phy/9.png"><br> 9.A  <font size="2" color="#ee0000">个人认为是好题目</font><br>A.<font color="#ee0000">看图 </font> ，铁屑等距平行<br>B.<font color="#ee0000">看图 </font> ，铁屑弯弯曲曲<br>C.<font color="#ee0000">D的暗示，没说匀速</font><br>D.正弦交流电要求是匀强磁场</p>
-<hr>
-<p><img src="/2022/01/24/0106phy/10.png"><br>10.C<br>A.为电场线<br>B.看疏密<br>C.两条等势线的差额当然比小于两条等势线的差额大咯<br>D.只考虑初末位置（电场力为保守力），不在一条等势线上，电势改变，电场力做功</p>
-<hr>
-<p><img src="/2022/01/24/0106phy/11.png"><br>11.B<br>A.C.等于（反射，反射角和入射角相等）<br>B.<font color="#ee0000"> 不妨这样想：入射角从<script type="math/tex">0^{\circ} \rightarrow 90^{\circ}</script> ，反射角只能从<script type="math/tex">0^{\circ} \rightarrow C</script>(临界角) ，入射角比反射角变得快 </font><br>D.由B知小于</p>
-<hr>
-<p><img src="/2022/01/24/0106phy/12.png"><br>12.D<br>A.B.考虑1s,有2kg水。$W=E<em>{p}+E</em>{k}=75J+225J=300J$<br>C.D.一定要想清楚你的研究对象是谁！<br>C. “电动机的输出功率等于水泵所需要的输入功率”，<font color="#ee0000"> 对 <del>水泵</del> 电动机 </font> ，水泵输入功率=电动机输出功率&lt;电动机输入功率=440W<br>D.<font color="#ee0000">对电动机</font> ，输入440W，输出300W/(75%)=400W，故热功率<script type="math/tex">P=40 W=I^{2} R</script>，解得 <script type="math/tex">R=10\Omega</script></p>
-<hr>
-<p><img src="/2022/01/24/0106phy/13.png"><br>13.C <font color="#ee0000">要通过判断电流流向来确定等效电阻R的计算式。</font><br>A.顺时针<br>B.<center> $\varepsilon=\frac{\Delta B}{\Delta t} \cdot S=k \cdot \pi r^{2}$ </center><br>C.由</p>
-<script type="math/tex; mode=display">R=\rho \frac{L}{S}=\rho \frac{2 \pi r}{h d}</script><p>得</p>
-<script type="math/tex; mode=display">P=\frac{\varepsilon^{2}}{R}=\frac{\pi d h k^{2} r^{3}}{2 \rho}</script><p>D.安培力各向抵消，则拉力始终等于重力</p>
-<hr>
-<p><img src="/2022/01/24/0106phy/14.png"><br>14.CD<br>A.核裂变<br>B.<font color="#ee0000">题干疯狂暗示, “提高能源利用率”“供热”</font>，故m&gt;&gt;27.6kg<br>C.D.对</p>
-<hr>
-<p><img src="/2022/01/24/0106phy/15.png"><br>15.BD<br>老老实实画四张图就行了，注意C中形状正确，但波谷应更低</p>
-<hr>
-<p><img src="/2022/01/24/0106phy/16.png"><br>16.BD</p>
-<p>A. $ E_{k}=\frac{p^{2}}{2 m}=8.0 \times  10^{-17} J $</p>
-<p>B. $ \lambda=\frac{h}{p}=5.5 \times 10^{-11} \mathrm{~m} $</p>
-<p>C.D.波动性的体现并不依赖于粒子性</p>
-<hr>
-<p><img src="/2022/01/24/0106phy/17(1).png"><br>17(1).①C<br>②D<br>③确保多次运动的轨迹相同 </p>
-<p><img src="/2022/01/24/0106phy/17(2).png"><br>(2).①C<br>②0.200<br>碰撞前p=0.202，碰撞后pA=0.040，pB=0.240；动量不可能增加，故p’=pB<font color="#ee0000">-</font>pA=0.200</p>
-<hr>
-<p><img src="/2022/01/24/0106phy/18.png"><br>18.(1)0~20Ω  ；<br>(2)1.31~1.34 ；<br>(3)$0.96 \times 10^{-6} \sim 1.0 \times 10^{-6}$ ；</p>
-<p>(4)小于。（斜率相当于是电阻的反映，甲电阻大，故甲横截面积小）</p>
-<hr>
-<p><img src="/2022/01/24/0106phy/19.png"><br>19.(1) $A B$ 段，由</p>
-<script type="math/tex; mode=display">v_{1}^{2}=2 a_{1} x_{1}</script><p>解得 </p>
-<script type="math/tex; mode=display">a_{1}=\frac{8}{3} \mathrm{~m} / \mathrm{s}^{2}</script><p>(2) $A B$ 段，由 </p>
-<script type="math/tex; mode=display">v_{1}=a_{1} t_{1}</script><p>得 </p>
-<script type="math/tex; mode=display">t_{1}=3 \mathrm{~s}</script><p>$B C$ 段，由</p>
-<script type="math/tex; mode=display">x_{2}=v_{1} t_{2}+\frac{1}{2} a_{2} t_{2}^{2}</script><p>解得 </p>
-<script type="math/tex; mode=display">a_{2}=2 \mathrm{~m} / \mathrm{s}^{2}</script><p>故</p>
-<script type="math/tex; mode=display">v=v_{1}+a_{2} t_{2}=12 \mathrm{~m} / \mathrm{s}</script><p>(3) 由</p>
-<script type="math/tex; mode=display">m g \sin \theta-F_f=m a_{2}</script><p>解得 </p>
-<script type="math/tex; mode=display">F_{f}=66 \mathrm{~N}</script><hr>
-<p><img src="/2022/01/24/0106phy/20.png"><br>20.(1) 到 $C$ 点过程 </p>
-<script type="math/tex; mode=display">\quad m g l \sin 37^{\circ}+m g R\left(1-\cos 37^{\circ}\right)=\frac{1}{2} m v_{\mathrm{C}}^{2}</script><p>$C$ 点时 </p>
-<script type="math/tex; mode=display">F_{\mathrm{N}}=m g+m \frac{v_{\mathrm{C}}^{2}}{R}=7 \mathrm{~N}</script><p>(2) 能过 $F$ 点，只要过最高点(v=0)。<br>由</p>
-<script type="math/tex; mode=display">\operatorname{mg}(l_{x} \sin 37^{\circ}-3 R \cos 37^{\circ}-R)=0</script><p>解得 </p>
-<script type="math/tex; mode=display">l_{x} \geqslant 0.85 \mathrm{~m}</script><p>到 $F$ 点过程 </p>
-<script type="math/tex; mode=display">m g l_{x} \sin 37^{\circ}-4 m g R \cos 37^{\circ}=\frac{1}{2} m v^{2}</script><p>解得</p>
-<script type="math/tex; mode=display">v=\sqrt{12 l_{x}-9.6} ( l_{x} \geqslant 0.85 \mathrm{~m} ）</script><p>(3) 设摩擦力做功为第一次到达中点时的$n$倍。<br>由</p>
-<script type="math/tex; mode=display">m g l_{x} \sin 37^{\circ}-m g \frac{l_{\mathrm{FG}}}{2} \sin 37^{\circ}-n_{\mu} m g \frac{l_{\mathrm{FG}}}{2} \cos 37^{\circ}=0</script><p>解得 </p>
-<script type="math/tex; mode=display">l_{x}=\frac{7 n+6}{15} (h_{n} \leqslant 3 \mathrm{~m})</script><p>对n一一列举，（但n一定是奇数，画图便知。）</p>
-<script type="math/tex; mode=display">\text { 当 } n=1 \text { 时, } l_{x 1}=\frac{13}{15} \mathrm{~m}</script><script type="math/tex; mode=display">\text { 当 } n=3 \text { 时, } l_{x 2}=\frac{27}{15} \mathrm{~m}</script><script type="math/tex; mode=display">\text { 当 } n=5 \text { 时, } l_{x 3}=\frac{41}{15} \mathrm{~m}</script><hr>
-<p><img src="/2022/01/24/0106phy/21.png"><br>21.(1)M带正电<br>由 </p>
-<script type="math/tex; mode=display">E=\frac{1}{2} B_{1} \omega r^{2} \quad</script><p>得 </p>
-<script type="math/tex; mode=display">Q=C U=C \frac{E}{2}=0.54 \mathrm{C}</script><p>(电容器接在电源两端，两侧电压为路端电压)</p>
-<p>(2)放电 </p>
-<script type="math/tex; mode=display">B_{2} l_{1} \Delta Q=m v_{1}</script><p>碰撞 </p>
-<script type="math/tex; mode=display">m v_{1}=(m+m) v_{2}</script><p>上升至最高</p>
-<script type="math/tex; mode=display">\frac{1}{2} 2 m v_{2}^{2}=2 m g h</script><p>联立得</p>
-<script type="math/tex; mode=display">\Delta Q=\frac{2 m}{B_{2} l_{1}} \sqrt{2 g h}=0.16 \mathrm{C}</script><p>(3)三步走：<br>①假设第一次能完全进入磁场<br>由</p>
-<script type="math/tex; mode=display">- \frac{B_{2}^{2} l_{1}^{2} l_{3}}{2 R}=2 m (v_{3} - v_{2}）</script><p>得</p>
-<script type="math/tex; mode=display">v_{3}=0.75 \mathrm{~m} / \mathrm{s}</script><p>假设成立，故</p>
-<script type="math/tex; mode=display">x_{1}=l_{3}=0.08 \mathrm{~m}</script><p>②然后匀速运动 </p>
-<script type="math/tex; mode=display">x_{2}=l_{3}-l_{2}=0.012 \mathrm{~m}</script><p>③假设第三次不能完全穿出磁场（其实很显然，不然为什么让你算位移）<br>由</p>
-<script type="math/tex; mode=display">- \frac{B_{2}^{2} l_{1}^{2} x_{3}}{2 R}=2 m (0 - v_{3}）</script><p>得</p>
-<script type="math/tex; mode=display">x_{3}=0.048 \mathrm{~m} < l_{3}</script><p>假设成立，故</p>
-<script type="math/tex; mode=display">x=x_{1} + x_{2} + x_{3}=0.14 \mathrm{~m}</script><hr>
-<p><img src="/2022/01/24/0106phy/22.png"><br>22.<font color="#ee0000">个人觉得是全卷最大亮点</font><br>(1) 光电效应方程 </p>
-<script type="math/tex; mode=display">E_{\mathrm{km}}=h v-W_{0}</script><p>由</p>
-<script type="math/tex; mode=display">\frac{1}{2} m v_{O}^{2}=E_{\mathrm{k}}+e U \quad\left(0 \leqslant E_{\mathrm{k}} \leqslant E_{\mathrm{km}}\right)</script><p>解得</p>
-<script type="math/tex; mode=display">\sqrt{\frac{2 e U}{m}} \leqslant v_{O} \leqslant \sqrt{\frac{2\left(h_{v}+e U-W_{0}\right)}{m}}</script><p>(2) 要看出Ⅰ是一个速度选择器！（电场力向外，磁场力向里，要能使电子在纸面内通过那就得二力平衡）<br>由</p>
-<script type="math/tex; mode=display">\quad e v_{0} B_{1}=e E \quad</script><p>得</p>
-<script type="math/tex; mode=display">v_{O}=\frac{E}{B_{1}}=\sqrt{\frac{3 e U}{m}}</script><p>极板中加速</p>
-<script type="math/tex; mode=display">\frac{1}{2} m v_{O}^{2}-\frac{1}{2} m v_{\mathrm{M}}^{2}=e U \quad</script><p>得</p>
-<script type="math/tex; mode=display">v_{\mathrm{M}}=\sqrt{\frac{e U}{m}}</script><p>然后把Ⅰ当空气，剩下的是不是赤裸裸的轴对称图形！<br><img src="/2022/01/24/0106phy/22(1).png"><br>如图所示, 由几何关系 </p>
-<script type="math/tex; mode=display">\frac{m v_{O}}{e B_{2}} \sin \alpha=\frac{a}{2}</script><p>得</p>
-<script type="math/tex; mode=display">\sin \alpha=\frac{\sqrt{3}}{6}</script><p>注意，还没做完！要求的是刚逸出时的速度方向，而在两极板间加速时速度方向改变！<br><img src="/2022/01/24/0106phy/22(2).png" width="50%"><br>抓住竖直分量始终未变，有</p>
-<script type="math/tex; mode=display">v_{\mathrm{M}} \sin \beta=v_{O} \sin \alpha</script><p>解得</p>
-<script type="math/tex; mode=display">\sin \beta=\frac{1}{2} , \beta=30^{\circ}</script><p>(3) ①E最大即速度最大，对应以$E_{\mathrm{km}}$逸出的电子</p>
-<p>由(1)(2)易得</p>
-<script type="math/tex; mode=display">\quad E_{\max }=B_{1} \sqrt{\frac{2\left(h v+e U-W_{0}\right)}{m}}</script><p>②B最大即半径最小，则速度偏角最大，则y分量最大，对应以$E_{\mathrm{km}}$且<font color="#ee0000">沿y方向</font>逸出的电子</p>
-<p>由(1)(2)及 <font color="#ee0000">$v<em>{M}=v</em>{My}=v<em>{Oy}=v</em>{O} \sin \alpha \leqslant \sqrt{\frac{2\left(h v-W_{0}\right)}{m}}$ </font></p>
-<p>解得 </p>
-<script type="math/tex; mode=display">B_{2 \max }=\frac{2 \sqrt{2 m\left(h v-W_{0}\right)}}{e a}</script><font size="1" color="#ee0000">【最后把E和B的答案和第二小题题干中的数据比对一样，如果形式一致（其实就是比对量纲），那说明你在**庞大**的字母运算中没有漏抄什么】</font>
-
-
-
-<hr>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>强基计划流程及建议</title>
+      <link href="/2023/01/18/qiangji/"/>
+      <url>/2023/01/18/qiangji/</url>
+      
+        <content type="html"><![CDATA[<p>↓↓↓</p><span id="more"></span><p>pdf预览及下载：<font size="1">（tips: 不上魔法可能加载较慢，文末有云盘链接~）</font></p><div class="pdfobject-container" data-target="https://sssayon.github.io/2023/01/18/qiangji/qiangji_proc.pdf" data-height="500px"></div><hr><p>云盘链接：</p><p>百度云： <a href="https://pan.baidu.com/s/1p1zuBWxUHn2v5WZJIMhLMw">https://pan.baidu.com/s/1p1zuBWxUHn2v5WZJIMhLMw</a>  提取码0412</p><p>阿里云： <a href="https://www.aliyundrive.com/s/hDsvpnG6RkC">https://www.aliyundrive.com/s/hDsvpnG6RkC</a></p><hr>]]></content>
+      
+      
       <categories>
-        <category>Academic_pre</category>
+          
+          <category> Academic_pre </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/01/08/hello-world/</url>
-    <content><![CDATA[]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>致理书院介绍</title>
+      <link href="/2023/01/18/zhili/"/>
+      <url>/2023/01/18/zhili/</url>
+      
+        <content type="html"><![CDATA[<p>↓↓↓</p><span id="more"></span><p>pdf预览及下载：<font size="1">（tips: 不上魔法可能加载较慢，文末有云盘链接~）</font></p><div class="pdfobject-container" data-target="https://sssayon.github.io/2023/01/18/zhili/zhili_intro.pdf" data-height="500px"></div><hr><p>云盘链接：</p><p>百度云： <a href="https://pan.baidu.com/s/1O7df9WDK_KKbDgOvyTcZ5A">https://pan.baidu.com/s/1O7df9WDK_KKbDgOvyTcZ5A</a>  提取码0412</p><p>阿里云： <a href="https://www.aliyundrive.com/s/aBvGxcuWEyo">https://www.aliyundrive.com/s/aBvGxcuWEyo</a></p><hr>]]></content>
+      
+      
       <categories>
-        <category>Others</category>
-        <category>helloWorldPage</category>
+          
+          <category> THU_non_academic </category>
+          
       </categories>
-      <tags>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>强基计划流程及建议</title>
-    <url>/2023/01/18/qiangji/</url>
-    <content><![CDATA[<p>↓↓↓</p>
-<span id="more"></span>
-<p>pdf预览及下载：<font size="1">（tips: 不上魔法可能加载较慢，文末有云盘链接~）</font></p>
-<div class="pdfobject-container" data-target="https://sssayon.github.io/2023/01/18/qiangji/qiangji_proc.pdf" data-height="500px"></div>
-<hr>
-<p>云盘链接：</p>
-<p>百度云： <a href="https://pan.baidu.com/s/1p1zuBWxUHn2v5WZJIMhLMw">https://pan.baidu.com/s/1p1zuBWxUHn2v5WZJIMhLMw</a>  提取码0412</p>
-<p>阿里云： <a href="https://www.aliyundrive.com/s/hDsvpnG6RkC">https://www.aliyundrive.com/s/hDsvpnG6RkC</a></p>
-<hr>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【置底】临时文件库</title>
+      <link href="/2022/04/24/trans/"/>
+      <url>/2022/04/24/trans/</url>
+      
+        <content type="html"><![CDATA[<p>↓↓↓</p><span id="more"></span><p>暂无</p>]]></content>
+      
+      
       <categories>
-        <category>Academic_pre</category>
+          
+          <category> Others </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>数/物/化/生 高中笔记分享</title>
-    <url>/2022/01/27/notes/</url>
-    <content><![CDATA[<p>↓↓↓</p>
-<span id="more"></span>
-<p><a href="phynotes.pdf">物理</a> / <a href="bionotes.pdf">生物</a> / <a href="chemnotes.pdf">化学</a> / <a href="mathnotes.pdf">数学</a> 笔记：</p>
-<p>百度云： <a href="https://pan.baidu.com/s/1UmMwDS-qGdEsH7dfadckdQ">https://pan.baidu.com/s/1UmMwDS-qGdEsH7dfadckdQ</a> 提取码0412</p>
-<p>阿里云： <a href="https://www.aliyundrive.com/s/QiBAPebQsfx">https://www.aliyundrive.com/s/QiBAPebQsfx</a> </p>
-<p><strong>禁止</strong>任何形式的传播。</p>
-<hr>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数/物/化/生 高中笔记分享</title>
+      <link href="/2022/01/27/notes/"/>
+      <url>/2022/01/27/notes/</url>
+      
+        <content type="html"><![CDATA[<p>↓↓↓</p><span id="more"></span><p><a href="phynotes.pdf">物理</a> / <a href="bionotes.pdf">生物</a> / <a href="chemnotes.pdf">化学</a> / <a href="mathnotes.pdf">数学</a> 笔记：</p><p>百度云： <a href="https://pan.baidu.com/s/1UmMwDS-qGdEsH7dfadckdQ">https://pan.baidu.com/s/1UmMwDS-qGdEsH7dfadckdQ</a> 提取码0412</p><p>阿里云： <a href="https://www.aliyundrive.com/s/QiBAPebQsfx">https://www.aliyundrive.com/s/QiBAPebQsfx</a> </p><p><strong>禁止</strong>任何形式的传播。</p><hr>]]></content>
+      
+      
       <categories>
-        <category>Academic_pre</category>
+          
+          <category> Academic_pre </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>【置底】临时文件库</title>
-    <url>/2022/04/24/trans/</url>
-    <content><![CDATA[<p>↓↓↓</p>
-<span id="more"></span>
-<p>暂无</p>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2022年1月浙江省普通高等学校招生全国统一考试物理(选考)试题解析</title>
+      <link href="/2022/01/24/0106phy/"/>
+      <url>/2022/01/24/0106phy/</url>
+      
+        <content type="html"><![CDATA[<p>2022年1月浙江省普通高等学校招生全国统一考试物理(选考)试题解析<br>本文含较多图片及公式，首次加载时间可能较长。</p><span id="more"></span><h2 id="正文部分"><a href="#正文部分" class="headerlink" title="正文部分"></a>正文部分</h2><p><img src="/2022/01/24/0106phy/1.png"><br>1.A </p><script type="math/tex; mode=display">F=\frac{W}{l}</script><hr><p><img src="/2022/01/24/0106phy/2.png"><br>2.B<br>B.如发旋转球</p><hr><p><img src="/2022/01/24/0106phy/3.png"><br>3.B</p><script type="math/tex; mode=display">F=B I L</script><hr><p><img src="/2022/01/24/0106phy/4.png"><br>4.D<br>不做解释。</p><hr><p><img src="/2022/01/24/0106phy/5.png"><br>5.B<br>由 <script type="math/tex">\operatorname{T} \cos \theta-\mu(m g-\operatorname{Tsin}\theta)=0</script><br>得<script type="math/tex">\operatorname{T}=\frac{\mu m g}{\cos \theta+\mu \sin \theta}</script><br>（注意问的是<font color="#ee0000">合</font>拉力）</p><hr><p><img src="/2022/01/24/0106phy/6.png"><br>6.B<br>不做解释。</p><hr><p><img src="/2022/01/24/0106phy/7.png"><br>7.D<br>对P、Q整体，由二力平衡知D成立。</p><hr><p><img src="/2022/01/24/0106phy/8.png"><br>8.C<br>A.脱离地球引力，则<script type="math/tex">v \geqslant 11.2 \mathrm{~km} / \mathrm{s}</script> </p><p>B.半个周期，且周期大于地球公转周期12个月<br>C.由开普勒第三定律知成立<br>D.在地火转移轨道Q点速度 小于 在火星轨道Q点速度(因为要加速变轨) 小于 在地球轨道速度(开三) </p><hr><p><img src="/2022/01/24/0106phy/9.png"><br> 9.A  <font size="2" color="#ee0000">个人认为是好题目</font><br>A.<font color="#ee0000">看图 </font> ，铁屑等距平行<br>B.<font color="#ee0000">看图 </font> ，铁屑弯弯曲曲<br>C.<font color="#ee0000">D的暗示，没说匀速</font><br>D.正弦交流电要求是匀强磁场</p><hr><p><img src="/2022/01/24/0106phy/10.png"><br>10.C<br>A.为电场线<br>B.看疏密<br>C.两条等势线的差额当然比小于两条等势线的差额大咯<br>D.只考虑初末位置（电场力为保守力），不在一条等势线上，电势改变，电场力做功</p><hr><p><img src="/2022/01/24/0106phy/11.png"><br>11.B<br>A.C.等于（反射，反射角和入射角相等）<br>B.<font color="#ee0000"> 不妨这样想：入射角从<script type="math/tex">0^{\circ} \rightarrow 90^{\circ}</script> ，反射角只能从<script type="math/tex">0^{\circ} \rightarrow C</script>(临界角) ，入射角比反射角变得快 </font><br>D.由B知小于</p><hr><p><img src="/2022/01/24/0106phy/12.png"><br>12.D<br>A.B.考虑1s,有2kg水。$W=E<em>{p}+E</em>{k}=75J+225J=300J$<br>C.D.一定要想清楚你的研究对象是谁！<br>C. “电动机的输出功率等于水泵所需要的输入功率”，<font color="#ee0000"> 对 <del>水泵</del> 电动机 </font> ，水泵输入功率=电动机输出功率&lt;电动机输入功率=440W<br>D.<font color="#ee0000">对电动机</font> ，输入440W，输出300W/(75%)=400W，故热功率<script type="math/tex">P=40 W=I^{2} R</script>，解得 <script type="math/tex">R=10\Omega</script></p><hr><p><img src="/2022/01/24/0106phy/13.png"><br>13.C <font color="#ee0000">要通过判断电流流向来确定等效电阻R的计算式。</font><br>A.顺时针<br>B.<center> $\varepsilon=\frac{\Delta B}{\Delta t} \cdot S=k \cdot \pi r^{2}$ </center><br>C.由</p><script type="math/tex; mode=display">R=\rho \frac{L}{S}=\rho \frac{2 \pi r}{h d}</script><p>得</p><script type="math/tex; mode=display">P=\frac{\varepsilon^{2}}{R}=\frac{\pi d h k^{2} r^{3}}{2 \rho}</script><p>D.安培力各向抵消，则拉力始终等于重力</p><hr><p><img src="/2022/01/24/0106phy/14.png"><br>14.CD<br>A.核裂变<br>B.<font color="#ee0000">题干疯狂暗示, “提高能源利用率”“供热”</font>，故m&gt;&gt;27.6kg<br>C.D.对</p><hr><p><img src="/2022/01/24/0106phy/15.png"><br>15.BD<br>老老实实画四张图就行了，注意C中形状正确，但波谷应更低</p><hr><p><img src="/2022/01/24/0106phy/16.png"><br>16.BD</p><p>A. $ E_{k}=\frac{p^{2}}{2 m}=8.0 \times  10^{-17} J $</p><p>B. $ \lambda=\frac{h}{p}=5.5 \times 10^{-11} \mathrm{~m} $</p><p>C.D.波动性的体现并不依赖于粒子性</p><hr><p><img src="/2022/01/24/0106phy/17(1).png"><br>17(1).①C<br>②D<br>③确保多次运动的轨迹相同 </p><p><img src="/2022/01/24/0106phy/17(2).png"><br>(2).①C<br>②0.200<br>碰撞前p=0.202，碰撞后pA=0.040，pB=0.240；动量不可能增加，故p’=pB<font color="#ee0000">-</font>pA=0.200</p><hr><p><img src="/2022/01/24/0106phy/18.png"><br>18.(1)0~20Ω  ；<br>(2)1.31~1.34 ；<br>(3)$0.96 \times 10^{-6} \sim 1.0 \times 10^{-6}$ ；</p><p>(4)小于。（斜率相当于是电阻的反映，甲电阻大，故甲横截面积小）</p><hr><p><img src="/2022/01/24/0106phy/19.png"><br>19.(1) $A B$ 段，由</p><script type="math/tex; mode=display">v_{1}^{2}=2 a_{1} x_{1}</script><p>解得 </p><script type="math/tex; mode=display">a_{1}=\frac{8}{3} \mathrm{~m} / \mathrm{s}^{2}</script><p>(2) $A B$ 段，由 </p><script type="math/tex; mode=display">v_{1}=a_{1} t_{1}</script><p>得 </p><script type="math/tex; mode=display">t_{1}=3 \mathrm{~s}</script><p>$B C$ 段，由</p><script type="math/tex; mode=display">x_{2}=v_{1} t_{2}+\frac{1}{2} a_{2} t_{2}^{2}</script><p>解得 </p><script type="math/tex; mode=display">a_{2}=2 \mathrm{~m} / \mathrm{s}^{2}</script><p>故</p><script type="math/tex; mode=display">v=v_{1}+a_{2} t_{2}=12 \mathrm{~m} / \mathrm{s}</script><p>(3) 由</p><script type="math/tex; mode=display">m g \sin \theta-F_f=m a_{2}</script><p>解得 </p><script type="math/tex; mode=display">F_{f}=66 \mathrm{~N}</script><hr><p><img src="/2022/01/24/0106phy/20.png"><br>20.(1) 到 $C$ 点过程 </p><script type="math/tex; mode=display">\quad m g l \sin 37^{\circ}+m g R\left(1-\cos 37^{\circ}\right)=\frac{1}{2} m v_{\mathrm{C}}^{2}</script><p>$C$ 点时 </p><script type="math/tex; mode=display">F_{\mathrm{N}}=m g+m \frac{v_{\mathrm{C}}^{2}}{R}=7 \mathrm{~N}</script><p>(2) 能过 $F$ 点，只要过最高点(v=0)。<br>由</p><script type="math/tex; mode=display">\operatorname{mg}(l_{x} \sin 37^{\circ}-3 R \cos 37^{\circ}-R)=0</script><p>解得 </p><script type="math/tex; mode=display">l_{x} \geqslant 0.85 \mathrm{~m}</script><p>到 $F$ 点过程 </p><script type="math/tex; mode=display">m g l_{x} \sin 37^{\circ}-4 m g R \cos 37^{\circ}=\frac{1}{2} m v^{2}</script><p>解得</p><script type="math/tex; mode=display">v=\sqrt{12 l_{x}-9.6} ( l_{x} \geqslant 0.85 \mathrm{~m} ）</script><p>(3) 设摩擦力做功为第一次到达中点时的$n$倍。<br>由</p><script type="math/tex; mode=display">m g l_{x} \sin 37^{\circ}-m g \frac{l_{\mathrm{FG}}}{2} \sin 37^{\circ}-n_{\mu} m g \frac{l_{\mathrm{FG}}}{2} \cos 37^{\circ}=0</script><p>解得 </p><script type="math/tex; mode=display">l_{x}=\frac{7 n+6}{15} (h_{n} \leqslant 3 \mathrm{~m})</script><p>对n一一列举，（但n一定是奇数，画图便知。）</p><script type="math/tex; mode=display">\text { 当 } n=1 \text { 时, } l_{x 1}=\frac{13}{15} \mathrm{~m}</script><script type="math/tex; mode=display">\text { 当 } n=3 \text { 时, } l_{x 2}=\frac{27}{15} \mathrm{~m}</script><script type="math/tex; mode=display">\text { 当 } n=5 \text { 时, } l_{x 3}=\frac{41}{15} \mathrm{~m}</script><hr><p><img src="/2022/01/24/0106phy/21.png"><br>21.(1)M带正电<br>由 </p><script type="math/tex; mode=display">E=\frac{1}{2} B_{1} \omega r^{2} \quad</script><p>得 </p><script type="math/tex; mode=display">Q=C U=C \frac{E}{2}=0.54 \mathrm{C}</script><p>(电容器接在电源两端，两侧电压为路端电压)</p><p>(2)放电 </p><script type="math/tex; mode=display">B_{2} l_{1} \Delta Q=m v_{1}</script><p>碰撞 </p><script type="math/tex; mode=display">m v_{1}=(m+m) v_{2}</script><p>上升至最高</p><script type="math/tex; mode=display">\frac{1}{2} 2 m v_{2}^{2}=2 m g h</script><p>联立得</p><script type="math/tex; mode=display">\Delta Q=\frac{2 m}{B_{2} l_{1}} \sqrt{2 g h}=0.16 \mathrm{C}</script><p>(3)三步走：<br>①假设第一次能完全进入磁场<br>由</p><script type="math/tex; mode=display">- \frac{B_{2}^{2} l_{1}^{2} l_{3}}{2 R}=2 m (v_{3} - v_{2}）</script><p>得</p><script type="math/tex; mode=display">v_{3}=0.75 \mathrm{~m} / \mathrm{s}</script><p>假设成立，故</p><script type="math/tex; mode=display">x_{1}=l_{3}=0.08 \mathrm{~m}</script><p>②然后匀速运动 </p><script type="math/tex; mode=display">x_{2}=l_{3}-l_{2}=0.012 \mathrm{~m}</script><p>③假设第三次不能完全穿出磁场（其实很显然，不然为什么让你算位移）<br>由</p><script type="math/tex; mode=display">- \frac{B_{2}^{2} l_{1}^{2} x_{3}}{2 R}=2 m (0 - v_{3}）</script><p>得</p><script type="math/tex; mode=display">x_{3}=0.048 \mathrm{~m} < l_{3}</script><p>假设成立，故</p><script type="math/tex; mode=display">x=x_{1} + x_{2} + x_{3}=0.14 \mathrm{~m}</script><hr><p><img src="/2022/01/24/0106phy/22.png"><br>22.<font color="#ee0000">个人觉得是全卷最大亮点</font><br>(1) 光电效应方程 </p><script type="math/tex; mode=display">E_{\mathrm{km}}=h v-W_{0}</script><p>由</p><script type="math/tex; mode=display">\frac{1}{2} m v_{O}^{2}=E_{\mathrm{k}}+e U \quad\left(0 \leqslant E_{\mathrm{k}} \leqslant E_{\mathrm{km}}\right)</script><p>解得</p><script type="math/tex; mode=display">\sqrt{\frac{2 e U}{m}} \leqslant v_{O} \leqslant \sqrt{\frac{2\left(h_{v}+e U-W_{0}\right)}{m}}</script><p>(2) 要看出Ⅰ是一个速度选择器！（电场力向外，磁场力向里，要能使电子在纸面内通过那就得二力平衡）<br>由</p><script type="math/tex; mode=display">\quad e v_{0} B_{1}=e E \quad</script><p>得</p><script type="math/tex; mode=display">v_{O}=\frac{E}{B_{1}}=\sqrt{\frac{3 e U}{m}}</script><p>极板中加速</p><script type="math/tex; mode=display">\frac{1}{2} m v_{O}^{2}-\frac{1}{2} m v_{\mathrm{M}}^{2}=e U \quad</script><p>得</p><script type="math/tex; mode=display">v_{\mathrm{M}}=\sqrt{\frac{e U}{m}}</script><p>然后把Ⅰ当空气，剩下的是不是赤裸裸的轴对称图形！<br><img src="/2022/01/24/0106phy/22(1).png"><br>如图所示, 由几何关系 </p><script type="math/tex; mode=display">\frac{m v_{O}}{e B_{2}} \sin \alpha=\frac{a}{2}</script><p>得</p><script type="math/tex; mode=display">\sin \alpha=\frac{\sqrt{3}}{6}</script><p>注意，还没做完！要求的是刚逸出时的速度方向，而在两极板间加速时速度方向改变！<br><img src="/2022/01/24/0106phy/22(2).png" width="50%"><br>抓住竖直分量始终未变，有</p><script type="math/tex; mode=display">v_{\mathrm{M}} \sin \beta=v_{O} \sin \alpha</script><p>解得</p><script type="math/tex; mode=display">\sin \beta=\frac{1}{2} , \beta=30^{\circ}</script><p>(3) ①E最大即速度最大，对应以$E_{\mathrm{km}}$逸出的电子</p><p>由(1)(2)易得</p><script type="math/tex; mode=display">\quad E_{\max }=B_{1} \sqrt{\frac{2\left(h v+e U-W_{0}\right)}{m}}</script><p>②B最大即半径最小，则速度偏角最大，则y分量最大，对应以$E_{\mathrm{km}}$且<font color="#ee0000">沿y方向</font>逸出的电子</p><p>由(1)(2)及 <font color="#ee0000">$v<em>{M}=v</em>{My}=v<em>{Oy}=v</em>{O} \sin \alpha \leqslant \sqrt{\frac{2\left(h v-W_{0}\right)}{m}}$ </font></p><p>解得 </p><script type="math/tex; mode=display">B_{2 \max }=\frac{2 \sqrt{2 m\left(h v-W_{0}\right)}}{e a}</script><font size="1" color="#ee0000">【最后把E和B的答案和第二小题题干中的数据比对一样，如果形式一致（其实就是比对量纲），那说明你在**庞大**的字母运算中没有漏抄什么】</font><hr>]]></content>
+      
+      
       <categories>
-        <category>Others</category>
+          
+          <category> Academic_pre </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>致理书院介绍</title>
-    <url>/2023/01/18/zhili/</url>
-    <content><![CDATA[<p>↓↓↓</p>
-<span id="more"></span>
-<p>pdf预览及下载：<font size="1">（tips: 不上魔法可能加载较慢，文末有云盘链接~）</font></p>
-<div class="pdfobject-container" data-target="https://sssayon.github.io/2023/01/18/zhili/zhili_intro.pdf" data-height="500px"></div>
-<hr>
-<p>云盘链接：</p>
-<p>百度云： <a href="https://pan.baidu.com/s/1O7df9WDK_KKbDgOvyTcZ5A">https://pan.baidu.com/s/1O7df9WDK_KKbDgOvyTcZ5A</a>  提取码0412</p>
-<p>阿里云： <a href="https://www.aliyundrive.com/s/aBvGxcuWEyo">https://www.aliyundrive.com/s/aBvGxcuWEyo</a></p>
-<hr>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/01/08/hello-world/"/>
+      <url>/2022/01/08/hello-world/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
       <categories>
-        <category>THU_non_academic</category>
+          
+          <category> Others </category>
+          
+          <category> helloWorldPage </category>
+          
       </categories>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
