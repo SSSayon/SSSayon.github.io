@@ -248,7 +248,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Academic-pre/" itemprop="url" rel="index"><span itemprop="name">Academic_pre</span></a>
+                  <a href="/categories/%E9%AB%98%E4%B8%AD/" itemprop="url" rel="index"><span itemprop="name">高中</span></a>
                 </span>
             </span>
 
@@ -525,14 +525,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -725,6 +725,26 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
 
   
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '30929131df9db9458939',
+      clientSecret: '84d0524f1eb9574b1c04fcfe224fe6a750758dda',
+      repo        : 'cmt',
+      owner       : 'SSSayon',
+      admin       : ['SSSayon'],
+      id          : 'd8d128d9b6fe8102e4d907760c6d6a8f',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
+
 
 <script>
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
@@ -751,26 +771,6 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       serverURLs : ''
     });
   }, window.Valine);
-});
-</script>
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID    : '30929131df9db9458939',
-      clientSecret: '84d0524f1eb9574b1c04fcfe224fe6a750758dda',
-      repo        : 'cmt',
-      owner       : 'SSSayon',
-      admin       : ['SSSayon'],
-      id          : 'd8d128d9b6fe8102e4d907760c6d6a8f',
-        language: 'zh-CN',
-      distractionFreeMode: true
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
 });
 </script>
 
