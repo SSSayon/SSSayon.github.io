@@ -1,112 +1,221 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>2023 暑假记录</title>
-      <link href="/2023/07/18/2022-2023-summer/"/>
-      <url>/2023/07/18/2022-2023-summer/</url>
-      
-        <content type="html"><![CDATA[<p>时隔一年，博客，启动！</p><span id="more"></span><hr><p>事情是这样的，这假放的我一天比一天颓，就比如昨天一整天看了一小时左右就能看完的十来页书。</p><blockquote><p>7月01日 新开这本 Artin 的 Algebra，也为了督促自己下个学期多下些苦功。</p><p>……</p><p>7月13日 摆烂。</p><p>7月14日 摆烂。</p><p>7月15日 摆烂。</p><p>7月17日 Sayon 啊 Sayon！你怎么能如此堕落！先前订下的学习计划你都忘了吗？子曰：“吾日三省吾身。”  …… 不能再这样下去了！</p><p>7月18日 摆烂。</p><p>7月19日 摆烂。</p></blockquote><p><del>这样下去不行的，不如我们 ……</del> 于是我决定从今天起每天 update 点内容，给自己一个记录，也给自己一个督促。</p><hr><h2 id="7月18日"><a href="#7月18日" class="headerlink" title="7月18日"></a>7月18日</h2><p>上午有课（致理定制 基础学科交叉实践课程 - 深度学习框架与图形学编程实践），讲了图形学基础。的确讲的是很基础的内容，但也了解了很多。已经感觉这门课不是很吃得消了，主要是要在课后大量地自学相应内容（包括应当有的但我显然没有的前置知识(?)），不然完全没法学。感觉这对我挑战好大。现在就是倾向于当拓展眼界这样子在学了，听说交叉课好像都会自带 P/F (?)，反正也无所谓，夏季学期的退课阶段这门课都上完了，到时候也可以决定记不记 W。</p><p>下午宿舍楼断电检修，太热了也没心情，半梦半醒地睡了个下午觉。睡醒后开始看 ODE ，看了存在性定理那一节，解对参数和初始值的连续性。六点左右就吃饭去了。</p><p>晚饭吃好又开始照例的摆烂，这破习惯得改掉了！刷到 ChiliChill 北京场的录像，差不多全程看完了。怎么 encore 是山遥路远ww 好羡慕哦。然后开始无意义刷视频。得改了！</p><p>七点半/八点左右终于开始学习了，看 Algebra，对称那一章，平面的等距。感觉应该并不难啊，几何意义也挺清楚，但就是不知道为什么看的这么慢。看样子基础不牢地动山摇了x</p><p>看到十点多的样子，然后又开始磨洋工磨到快十一点。开始写贵系暑培 Python 的作业。挺简单，学了几个库。效率奇低的到了一点多才写好基本要求和一个 tikz 的 GUI 界面。明天打算再学推荐的 streamlit 第三方库写 GUI。</p><p>睡了，明天早上看样子又没了。</p><hr><h2 id="7月19日"><a href="#7月19日" class="headerlink" title="7月19日"></a>7月19日</h2><p>果不其然，十点的闹铃，将近十一点才从从床上爬下来。迷迷糊糊刚醒的时候玩手机的习惯也得改了，要清醒也不是这样清的！给昨天的 Python 作业改了改说明文档，就去吃中饭了。</p><p>下午一点左右开始写 streamlit 的 GUI。界面和流程很快就出来了，然后就发现问题，按下按钮进入新页面，在新页面的输入框输入任何东西后都会直接返回初始界面。一开始认为是输入框在主函数生成还是调用函数中生成的问题（相当于局部变量(?)），搞了好久解决不了。后来终于发现这个库为了实现实时交互，一个特性是检测到任何输入都会重新运行整个程序。所以这就有两方面的问题：第一，如果之前通过点击按钮等手段进入新页面，重置后又不会“模仿”你点按钮的行为而保持这个页面，所以就卡在初始界面了；第二，如果一些输入框/滑动条设置了随机初始值，那么重置后又是一个随机，结果导致你在填完第二个输入框后发现第一个框中的内容随机改了。。。最后依次通过这个库提供的 <code>st.session_state</code> （相当于记录状态的“全局变量”），记录点击事件而保证第二次正常进入新界面；以及在 <code>main.py</code> 中就随机好初始值再传入这个会重新运行的 <code>gui.py</code> ，保证不出现二次随机解决了问题。下午心态是炸的，原本给这种事情并没分配多少时间，毕竟昨天基本都解决了。</p><p>结果在交作业的时候又出了问题。作业要 push 到 github 上，因为用了个小号，死活 push 不上去。然后想到本地 git 连的是大号的 github，一看 commit 记录果然都是大号的。。。然后小号的仓库拉了大号做 collaborator 就成功 push 上去了，contributor 就自然而然全是大号，小号一点都没。。。这可不行啊，别还以为我作业是叫别人做的呢x 然后就去学一台电脑怎么配置多个 git 账号，其实倒也和一个账号是一模一样的。这还真是 git 基础不牢地动山摇了（看我昨天说的==）。但至少查漏补缺了一块内容。</p><p>搞得我晚饭都没吃。也做了相应的笔记，弄到七点多结束了。这大大超出预算了哈！看来今天数学是没得学咯。然后去看了点 LSGAN 的 Jittor 教程，包括转出去又学了遍几种损失函数。到八点半去了桃李吃<del>夜宵</del>晚饭。</p><p>回来后开始摆烂了。。。（喂！）看直播看到快十一点。然后开始跑 MNIST 的 LSGAN。参数都没调，直接 CtrlCV 工程师，20 轮 epoch ，生成出来半像不像数字的东西，但至少能出来是吧。附一张答辩做欣赏。</p><p><img src="https://cdn.jsdelivr.net/gh/SSSayon/imgbed@main/img/20230720005603_image-20230720005555823.png" alt="image-20230720005555823" style="zoom: 33%; margin: auto;"></p><p>整体今天比昨天颓，坏！睡了，明天有课。</p><hr><h2 id="7月20日"><a href="#7月20日" class="headerlink" title="7月20日"></a>7月20日</h2><p>上午上课，讲了图像理解（图像分类、图像检测、图像分割，依次递进）。好难，几乎啥都没学到，<del>一定要说学了什么那就听到了几个名词。</del>真不知道这些网络结构是怎么给想出来的。要学点东西又得课后大量自学。</p><p>睡了个午觉，没定闹铃直接睡到三点半，四点左右才基本清醒过来。开始做这次课的作业（ADE20K 数据集上的语义分割）。心态又炸了，又在考虑退课。如果真的完全没学到不如省点时间看数学，建模的书是一点都没开始看啊。晚饭没吃。七点多决定最后尝试重写一轮，问 ChatGPT 打了初稿，用了 U-Net 模型那就用它吧。一路写下去问下去竟然还算顺，终于成功地训起来了。但训练速度好慢，可能十秒才一个 batch ，一算训一轮 epoch 怕不是要十个小时。没训多少，出几张图看看，第一张有点意思，但怎么 mIoU 只有 $0.003$（要求 $\ge 0.3$），超。再输出后面几张果然是答辩，毕竟 loss 还有 2 左右（后注：怎么一直卡在这了！！！训不下去了？？？）。</p><p>九点半挂着模型在训，人去桃李吃晚饭还是夜宵（怎么和昨天这么像啊），碎肉拌面还真挺好吃。回来后发呆，看模型 loss 怎么还是 2 下不去了（p.s. 啥都没改，重新开始训，怎么速度一下子快了十几倍或是几十倍？？？）。十一点多准备学点数学，但好像没什么心思，一小时只看了 ODE 的一小节（频繁拿起放下手机x）。</p><p>睡了，准备让模型自己训着吧。小训 20 个 epoch ，每轮存个档，明天起来看看结果。</p><hr><h2 id="7月21日"><a href="#7月21日" class="headerlink" title="7月21日"></a>7月21日</h2><blockquote><p>今天真有点摆烂了 …</p></blockquote><p>一晚上就训了 11 个 epoch。测了下 mIoU，还是 只有 0.004 - 0.007 左右，麻了（反转：晚上发现计算函数写错了🤣，实际上是 0.1 - 0.3 左右）。无所事事到吃中饭时间。</p><p>下午。感觉这模型废了，准备用预训练模型，稍微改了下 U-Net ，用 resnet 作为 backbone，开始 loss 下降感觉快了点，但很快又在 2 左右跳来跳去了 … 最要命的是训练速度一下子慢了很多（用了 resnet101，可能参数量爆炸了）… 训到晚上感觉降得不快就放弃了，<del>还是继续让老东西爆金币。</del>然后下午又进入了奇怪的状态，很早就让模型自己挂着，翻开数学书准备看。结果到吃晚饭一个字没看（下午就是修改了下模型，然后还尝试写 DeepLab 发现完全不会，哦，还发现了 mIoU 函数写错了）。</p><p>吃完晚饭去隔壁坐了会，然后回来开始水群（其实下午也在水，去隔壁时也在水）… 翻开 ODE ，没看多少，贵系暑培开始上课，讲 Numpy 和 matplotlib ，虽然大概都会，但还是边看书边听了。但我这人就是明显的多线程废物，结果两样都没学多少。下课后继续看 ODE ，只稍微往下了一点点。不想看了，然后去看 Algebra，隔了一天有点忘了就又看了看前面，然后看到十二点也就看下去三四页。。。</p><p>又测了下模型，每个 batch 的 mIoU 基本上在 0.2 - 0.3 左右吧，最好的有个 0.41 。平均下来肯定还没到要求。不知道再训下去还会不会有用，晚上还是挂着吧。</p><p>明天又有课，又有作业，听说这最后 4 次作业都不会简单。完，这下都堆起来了，啥都干不成。</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>2023 暑假记录</title>
+    <url>/2023/07/18/2022-2023-summer/</url>
+    <content><![CDATA[<p>时隔一年，博客，启动！</p>
+<span id="more"></span>
+<hr>
+<p>事情是这样的，这假放的我一天比一天颓，就比如昨天一整天看了一小时左右就能看完的十来页书。</p>
+<blockquote>
+<p>7月01日 新开这本 Artin 的 Algebra，也为了督促自己下个学期多下些苦功。</p>
+<p>……</p>
+<p>7月13日 摆烂。</p>
+<p>7月14日 摆烂。</p>
+<p>7月15日 摆烂。</p>
+<p>7月17日 Sayon 啊 Sayon！你怎么能如此堕落！先前订下的学习计划你都忘了吗？子曰：“吾日三省吾身。”  …… 不能再这样下去了！</p>
+<p>7月18日 摆烂。</p>
+<p>7月19日 摆烂。</p>
+</blockquote>
+<p><del>这样下去不行的，不如我们 ……</del> 于是我决定从今天起每天 update 点内容，给自己一个记录，也给自己一个督促。</p>
+<hr>
+<h2 id="7月18日"><a href="#7月18日" class="headerlink" title="7月18日"></a>7月18日</h2><p>上午有课（致理定制 基础学科交叉实践课程 - 深度学习框架与图形学编程实践），讲了图形学基础。的确讲的是很基础的内容，但也了解了很多。已经感觉这门课不是很吃得消了，主要是要在课后大量地自学相应内容（包括应当有的但我显然没有的前置知识(?)），不然完全没法学。感觉这对我挑战好大。现在就是倾向于当拓展眼界这样子在学了，听说交叉课好像都会自带 P/F (?)，反正也无所谓，夏季学期的退课阶段这门课都上完了，到时候也可以决定记不记 W。</p>
+<p>下午宿舍楼断电检修，太热了也没心情，半梦半醒地睡了个下午觉。睡醒后开始看 ODE ，看了存在性定理那一节，解对参数和初始值的连续性。六点左右就吃饭去了。</p>
+<p>晚饭吃好又开始照例的摆烂，这破习惯得改掉了！刷到 ChiliChill 北京场的录像，差不多全程看完了。怎么 encore 是山遥路远ww 好羡慕哦。然后开始无意义刷视频。得改了！</p>
+<p>七点半/八点左右终于开始学习了，看 Algebra，对称那一章，平面的等距。感觉应该并不难啊，几何意义也挺清楚，但就是不知道为什么看的这么慢。看样子基础不牢地动山摇了x</p>
+<p>看到十点多的样子，然后又开始磨洋工磨到快十一点。开始写贵系暑培 Python 的作业。挺简单，学了几个库。效率奇低的到了一点多才写好基本要求和一个 tikz 的 GUI 界面。明天打算再学推荐的 streamlit 第三方库写 GUI。</p>
+<p>睡了，明天早上看样子又没了。</p>
+<hr>
+<h2 id="7月19日"><a href="#7月19日" class="headerlink" title="7月19日"></a>7月19日</h2><p>果不其然，十点的闹铃，将近十一点才从从床上爬下来。迷迷糊糊刚醒的时候玩手机的习惯也得改了，要清醒也不是这样清的！给昨天的 Python 作业改了改说明文档，就去吃中饭了。</p>
+<p>下午一点左右开始写 streamlit 的 GUI。界面和流程很快就出来了，然后就发现问题，按下按钮进入新页面，在新页面的输入框输入任何东西后都会直接返回初始界面。一开始认为是输入框在主函数生成还是调用函数中生成的问题（相当于局部变量(?)），搞了好久解决不了。后来终于发现这个库为了实现实时交互，一个特性是检测到任何输入都会重新运行整个程序。所以这就有两方面的问题：第一，如果之前通过点击按钮等手段进入新页面，重置后又不会“模仿”你点按钮的行为而保持这个页面，所以就卡在初始界面了；第二，如果一些输入框/滑动条设置了随机初始值，那么重置后又是一个随机，结果导致你在填完第二个输入框后发现第一个框中的内容随机改了。。。最后依次通过这个库提供的 <code>st.session_state</code> （相当于记录状态的“全局变量”），记录点击事件而保证第二次正常进入新界面；以及在 <code>main.py</code> 中就随机好初始值再传入这个会重新运行的 <code>gui.py</code> ，保证不出现二次随机解决了问题。下午心态是炸的，原本给这种事情并没分配多少时间，毕竟昨天基本都解决了。</p>
+<p>结果在交作业的时候又出了问题。作业要 push 到 github 上，因为用了个小号，死活 push 不上去。然后想到本地 git 连的是大号的 github，一看 commit 记录果然都是大号的。。。然后小号的仓库拉了大号做 collaborator 就成功 push 上去了，contributor 就自然而然全是大号，小号一点都没。。。这可不行啊，别还以为我作业是叫别人做的呢x 然后就去学一台电脑怎么配置多个 git 账号，其实倒也和一个账号是一模一样的。这还真是 git 基础不牢地动山摇了（看我昨天说的==）。但至少查漏补缺了一块内容。</p>
+<p>搞得我晚饭都没吃。也做了相应的笔记，弄到七点多结束了。这大大超出预算了哈！看来今天数学是没得学咯。然后去看了点 LSGAN 的 Jittor 教程，包括转出去又学了遍几种损失函数。到八点半去了桃李吃<del>夜宵</del>晚饭。</p>
+<p>回来后开始摆烂了。。。（喂！）看直播看到快十一点。然后开始跑 MNIST 的 LSGAN。参数都没调，直接 CtrlCV 工程师，20 轮 epoch ，生成出来半像不像数字的东西，但至少能出来是吧。附一张答辩做欣赏。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/SSSayon/imgbed@main/img/20230720005603_image-20230720005555823.png" alt="image-20230720005555823" style="zoom: 33%; margin: auto;"></p>
+<p>整体今天比昨天颓，坏！睡了，明天有课。</p>
+<hr>
+<h2 id="7月20日"><a href="#7月20日" class="headerlink" title="7月20日"></a>7月20日</h2><p>上午上课，讲了图像理解（图像分类、图像检测、图像分割，依次递进）。好难，几乎啥都没学到，<del>一定要说学了什么那就听到了几个名词。</del>真不知道这些网络结构是怎么给想出来的。要学点东西又得课后大量自学。</p>
+<p>睡了个午觉，没定闹铃直接睡到三点半，四点左右才基本清醒过来。开始做这次课的作业（ADE20K 数据集上的语义分割）。心态又炸了，又在考虑退课。如果真的完全没学到不如省点时间看数学，建模的书是一点都没开始看啊。晚饭没吃。七点多决定最后尝试重写一轮，问 ChatGPT 打了初稿，用了 U-Net 模型那就用它吧。一路写下去问下去竟然还算顺，终于成功地训起来了。但训练速度好慢，可能十秒才一个 batch ，一算训一轮 epoch 怕不是要十个小时。没训多少，出几张图看看，第一张有点意思，但怎么 mIoU 只有 $0.003$（要求 $\ge 0.3$），超。再输出后面几张果然是答辩，毕竟 loss 还有 2 左右（后注：怎么一直卡在这了！！！训不下去了？？？）。</p>
+<p>九点半挂着模型在训，人去桃李吃晚饭还是夜宵（怎么和昨天这么像啊），碎肉拌面还真挺好吃。回来后发呆，看模型 loss 怎么还是 2 下不去了（p.s. 啥都没改，重新开始训，怎么速度一下子快了十几倍或是几十倍？？？）。十一点多准备学点数学，但好像没什么心思，一小时只看了 ODE 的一小节（频繁拿起放下手机x）。</p>
+<p>睡了，准备让模型自己训着吧。小训 20 个 epoch ，每轮存个档，明天起来看看结果。</p>
+<hr>
+<h2 id="7月21日"><a href="#7月21日" class="headerlink" title="7月21日"></a>7月21日</h2><blockquote>
+<p>今天真有点摆烂了 …</p>
+</blockquote>
+<p>一晚上就训了 11 个 epoch。测了下 mIoU，还是 只有 0.004 - 0.007 左右，麻了（反转：晚上发现计算函数写错了🤣，实际上是 0.1 - 0.3 左右）。无所事事到吃中饭时间。</p>
+<p>下午。感觉这模型废了，准备用预训练模型，稍微改了下 U-Net ，用 resnet 作为 backbone，开始 loss 下降感觉快了点，但很快又在 2 左右跳来跳去了 … 最要命的是训练速度一下子慢了很多（用了 resnet101，可能参数量爆炸了）… 训到晚上感觉降得不快就放弃了，<del>还是继续让老东西爆金币。</del>然后下午又进入了奇怪的状态，很早就让模型自己挂着，翻开数学书准备看。结果到吃晚饭一个字没看（下午就是修改了下模型，然后还尝试写 DeepLab 发现完全不会，哦，还发现了 mIoU 函数写错了）。</p>
+<p>吃完晚饭去隔壁坐了会，然后回来开始水群（其实下午也在水，去隔壁时也在水）… 翻开 ODE ，没看多少，贵系暑培开始上课，讲 Numpy 和 matplotlib ，虽然大概都会，但还是边看书边听了。但我这人就是明显的多线程废物，结果两样都没学多少。下课后继续看 ODE ，只稍微往下了一点点。不想看了，然后去看 Algebra，隔了一天有点忘了就又看了看前面，然后看到十二点也就看下去三四页。。。</p>
+<p>又测了下模型，每个 batch 的 mIoU 基本上在 0.2 - 0.3 左右吧，最好的有个 0.41 。平均下来肯定还没到要求。不知道再训下去还会不会有用，晚上还是挂着吧。</p>
+<p>明天又有课，又有作业，听说这最后 4 次作业都不会简单。完，这下都堆起来了，啥都干不成。</p>
+]]></content>
       <categories>
-          
-          <category> 生活 </category>
-          
-          <category> 假期 </category>
-          
+        <category>生活</category>
+        <category>假期</category>
       </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>【置底】临时文件库</title>
-      <link href="/2022/04/24/trans/"/>
-      <url>/2022/04/24/trans/</url>
-      
-        <content type="html"><![CDATA[<p>↓↓↓</p><span id="more"></span><p>暂无</p>]]></content>
-      
-      
+  </entry>
+  <entry>
+    <title>数/物/化/生 高中笔记分享</title>
+    <url>/2022/01/27/notes/</url>
+    <content><![CDATA[<p>↓↓↓</p>
+<span id="more"></span>
+<p>物理 / 生物 / 化学 / 数学 笔记预览（加载较慢，可移步文末网盘链接下载）：</p>
+<hr>
+<p>物理</p>
+<div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/phynotes.pdf" data-height="500px"></div>
+<hr>
+<p>生物</p>
+<div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/bionotes.pdf" data-height="500px"></div>
+<hr>
+<p>化学</p>
+<div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/chemnotes.pdf" data-height="500px"></div>
+<hr>
+<p>数学</p>
+<div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/mathnotes.pdf" data-height="500px"></div>
+<hr>
+<p>网盘链接：</p>
+<p>百度云： <a href="https://pan.baidu.com/s/1UmMwDS-qGdEsH7dfadckdQ">https://pan.baidu.com/s/1UmMwDS-qGdEsH7dfadckdQ</a> 提取码0412</p>
+<p>阿里云： <a href="https://www.aliyundrive.com/s/QiBAPebQsfx">https://www.aliyundrive.com/s/QiBAPebQsfx</a> </p>
+<p><strong>禁止</strong>任何形式的传播。</p>
+<hr>
+]]></content>
       <categories>
-          
-          <category> 其它 </category>
-          
+        <category>高中</category>
       </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>数/物/化/生 高中笔记分享</title>
-      <link href="/2022/01/27/notes/"/>
-      <url>/2022/01/27/notes/</url>
-      
-        <content type="html"><![CDATA[<p>↓↓↓</p><span id="more"></span><p>物理 / 生物 / 化学 / 数学 笔记预览（加载较慢，可移步文末网盘链接下载）：</p><hr><p>物理</p><div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/phynotes.pdf" data-height="500px"></div><hr><p>生物</p><div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/bionotes.pdf" data-height="500px"></div><hr><p>化学</p><div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/chemnotes.pdf" data-height="500px"></div><hr><p>数学</p><div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/mathnotes.pdf" data-height="500px"></div><hr><p>网盘链接：</p><p>百度云： <a href="https://pan.baidu.com/s/1UmMwDS-qGdEsH7dfadckdQ">https://pan.baidu.com/s/1UmMwDS-qGdEsH7dfadckdQ</a> 提取码0412</p><p>阿里云： <a href="https://www.aliyundrive.com/s/QiBAPebQsfx">https://www.aliyundrive.com/s/QiBAPebQsfx</a> </p><p><strong>禁止</strong>任何形式的传播。</p><hr>]]></content>
-      
-      
+  </entry>
+  <entry>
+    <title>2022年1月浙江省普通高等学校招生全国统一考试物理(选考)试题解析</title>
+    <url>/2022/01/24/0106phy/</url>
+    <content><![CDATA[<p>2022年1月浙江省普通高等学校招生全国统一考试物理(选考)试题解析<br>本文含较多图片及公式，首次加载时间可能较长。</p>
+<span id="more"></span> 
+<blockquote>
+<p>2023/01/18 后记：<del>现在看那时候的 markdown 排版真是依托答辩 (x</del> </p>
+</blockquote>
+<h2 id="正文部分"><a href="#正文部分" class="headerlink" title="正文部分"></a>正文部分</h2><p><img src="/2022/01/24/0106phy/1.png"><br>1.A </p>
+<script type="math/tex; mode=display">F=\frac{W}{l}</script><hr>
+<p><img src="/2022/01/24/0106phy/2.png"><br>2.B<br>B.如发旋转球</p>
+<hr>
+<p><img src="/2022/01/24/0106phy/3.png"><br>3.B</p>
+<script type="math/tex; mode=display">F=B I L</script><hr>
+<p><img src="/2022/01/24/0106phy/4.png"><br>4.D<br>不做解释。</p>
+<hr>
+<p><img src="/2022/01/24/0106phy/5.png"><br>5.B<br>由 <script type="math/tex">\operatorname{T} \cos \theta-\mu(m g-\operatorname{Tsin}\theta)=0</script><br>得<script type="math/tex">\operatorname{T}=\frac{\mu m g}{\cos \theta+\mu \sin \theta}</script><br>（注意问的是<font color="#ee0000">合</font>拉力）</p>
+<hr>
+<p><img src="/2022/01/24/0106phy/6.png"><br>6.B<br>不做解释。</p>
+<hr>
+<p><img src="/2022/01/24/0106phy/7.png"><br>7.D<br>对P、Q整体，由二力平衡知D成立。</p>
+<hr>
+<p><img src="/2022/01/24/0106phy/8.png"><br>8.C<br>A.脱离地球引力，则<script type="math/tex">v \geqslant 11.2 \mathrm{~km} / \mathrm{s}</script> </p>
+<p>B.半个周期，且周期大于地球公转周期12个月<br>C.由开普勒第三定律知成立<br>D.在地火转移轨道Q点速度 小于 在火星轨道Q点速度(因为要加速变轨) 小于 在地球轨道速度(开三) </p>
+<hr>
+<p><img src="/2022/01/24/0106phy/9.png"><br> 9.A  <font size="2" color="#ee0000">个人认为是好题目</font><br>A.<font color="#ee0000">看图 </font> ，铁屑等距平行<br>B.<font color="#ee0000">看图 </font> ，铁屑弯弯曲曲<br>C.<font color="#ee0000">D的暗示，没说匀速</font><br>D.正弦交流电要求是匀强磁场</p>
+<hr>
+<p><img src="/2022/01/24/0106phy/10.png"><br>10.C<br>A.为电场线<br>B.看疏密<br>C.两条等势线的差额当然比小于两条等势线的差额大咯<br>D.只考虑初末位置（电场力为保守力），不在一条等势线上，电势改变，电场力做功</p>
+<hr>
+<p><img src="/2022/01/24/0106phy/11.png"><br>11.B<br>A.C.等于（反射，反射角和入射角相等）<br>B.<font color="#ee0000"> 不妨这样想：入射角从<script type="math/tex">0^{\circ} \rightarrow 90^{\circ}</script> ，反射角只能从<script type="math/tex">0^{\circ} \rightarrow C</script>(临界角) ，入射角比反射角变得快 </font><br>D.由B知小于</p>
+<hr>
+<p><img src="/2022/01/24/0106phy/12.png"><br>12.D<br>A.B.考虑1s,有2kg水。$W=E<em>{p}+E</em>{k}=75J+225J=300J$<br>C.D.一定要想清楚你的研究对象是谁！<br>C. “电动机的输出功率等于水泵所需要的输入功率”，<font color="#ee0000"> 对 <del>水泵</del> 电动机 </font> ，水泵输入功率=电动机输出功率&lt;电动机输入功率=440W<br>D.<font color="#ee0000">对电动机</font> ，输入440W，输出300W/(75%)=400W，故热功率<script type="math/tex">P=40 W=I^{2} R</script>，解得 <script type="math/tex">R=10\Omega</script></p>
+<hr>
+<p><img src="/2022/01/24/0106phy/13.png"><br>13.C <font color="#ee0000">要通过判断电流流向来确定等效电阻R的计算式。</font><br>A.顺时针<br>B.<center> $\varepsilon=\frac{\Delta B}{\Delta t} \cdot S=k \cdot \pi r^{2}$ </center><br>C.由</p>
+<script type="math/tex; mode=display">R=\rho \frac{L}{S}=\rho \frac{2 \pi r}{h d}</script><p>得</p>
+<script type="math/tex; mode=display">P=\frac{\varepsilon^{2}}{R}=\frac{\pi d h k^{2} r^{3}}{2 \rho}</script><p>D.安培力各向抵消，则拉力始终等于重力</p>
+<hr>
+<p><img src="/2022/01/24/0106phy/14.png"><br>14.CD<br>A.核裂变<br>B.<font color="#ee0000">题干疯狂暗示, “提高能源利用率”“供热”</font>，故m&gt;&gt;27.6kg<br>C.D.对</p>
+<hr>
+<p><img src="/2022/01/24/0106phy/15.png"><br>15.BD<br>老老实实画四张图就行了，注意C中形状正确，但波谷应更低</p>
+<hr>
+<p><img src="/2022/01/24/0106phy/16.png"><br>16.BD</p>
+<p>A. $ E_{k}=\frac{p^{2}}{2 m}=8.0 \times  10^{-17} J $</p>
+<p>B. $ \lambda=\frac{h}{p}=5.5 \times 10^{-11} \mathrm{~m} $</p>
+<p>C.D.波动性的体现并不依赖于粒子性</p>
+<hr>
+<p><img src="/2022/01/24/0106phy/17(1).png"><br>17(1).①C<br>②D<br>③确保多次运动的轨迹相同 </p>
+<p><img src="/2022/01/24/0106phy/17(2).png"><br>(2).①C<br>②0.200<br>碰撞前p=0.202，碰撞后pA=0.040，pB=0.240；动量不可能增加，故p’=pB<font color="#ee0000">-</font>pA=0.200</p>
+<hr>
+<p><img src="/2022/01/24/0106phy/18.png"><br>18.(1)0~20Ω  ；<br>(2)1.31~1.34 ；<br>(3)$0.96 \times 10^{-6} \sim 1.0 \times 10^{-6}$ ；</p>
+<p>(4)小于。（斜率相当于是电阻的反映，甲电阻大，故甲横截面积小）</p>
+<hr>
+<p><img src="/2022/01/24/0106phy/19.png"><br>19.(1) $A B$ 段，由</p>
+<script type="math/tex; mode=display">v_{1}^{2}=2 a_{1} x_{1}</script><p>解得 </p>
+<script type="math/tex; mode=display">a_{1}=\frac{8}{3} \mathrm{~m} / \mathrm{s}^{2}</script><p>(2) $A B$ 段，由 </p>
+<script type="math/tex; mode=display">v_{1}=a_{1} t_{1}</script><p>得 </p>
+<script type="math/tex; mode=display">t_{1}=3 \mathrm{~s}</script><p>$B C$ 段，由</p>
+<script type="math/tex; mode=display">x_{2}=v_{1} t_{2}+\frac{1}{2} a_{2} t_{2}^{2}</script><p>解得 </p>
+<script type="math/tex; mode=display">a_{2}=2 \mathrm{~m} / \mathrm{s}^{2}</script><p>故</p>
+<script type="math/tex; mode=display">v=v_{1}+a_{2} t_{2}=12 \mathrm{~m} / \mathrm{s}</script><p>(3) 由</p>
+<script type="math/tex; mode=display">m g \sin \theta-F_f=m a_{2}</script><p>解得 </p>
+<script type="math/tex; mode=display">F_{f}=66 \mathrm{~N}</script><hr>
+<p><img src="/2022/01/24/0106phy/20.png"><br>20.(1) 到 $C$ 点过程 </p>
+<script type="math/tex; mode=display">\quad m g l \sin 37^{\circ}+m g R\left(1-\cos 37^{\circ}\right)=\frac{1}{2} m v_{\mathrm{C}}^{2}</script><p>$C$ 点时 </p>
+<script type="math/tex; mode=display">F_{\mathrm{N}}=m g+m \frac{v_{\mathrm{C}}^{2}}{R}=7 \mathrm{~N}</script><p>(2) 能过 $F$ 点，只要过最高点(v=0)。<br>由</p>
+<script type="math/tex; mode=display">\operatorname{mg}(l_{x} \sin 37^{\circ}-3 R \cos 37^{\circ}-R)=0</script><p>解得 </p>
+<script type="math/tex; mode=display">l_{x} \geqslant 0.85 \mathrm{~m}</script><p>到 $F$ 点过程 </p>
+<script type="math/tex; mode=display">m g l_{x} \sin 37^{\circ}-4 m g R \cos 37^{\circ}=\frac{1}{2} m v^{2}</script><p>解得</p>
+<script type="math/tex; mode=display">v=\sqrt{12 l_{x}-9.6} ( l_{x} \geqslant 0.85 \mathrm{~m} ）</script><p>(3) 设摩擦力做功为第一次到达中点时的$n$倍。<br>由</p>
+<script type="math/tex; mode=display">m g l_{x} \sin 37^{\circ}-m g \frac{l_{\mathrm{FG}}}{2} \sin 37^{\circ}-n_{\mu} m g \frac{l_{\mathrm{FG}}}{2} \cos 37^{\circ}=0</script><p>解得 </p>
+<script type="math/tex; mode=display">l_{x}=\frac{7 n+6}{15} (h_{n} \leqslant 3 \mathrm{~m})</script><p>对n一一列举，（但n一定是奇数，画图便知。）</p>
+<script type="math/tex; mode=display">\text { 当 } n=1 \text { 时, } l_{x 1}=\frac{13}{15} \mathrm{~m}</script><script type="math/tex; mode=display">\text { 当 } n=3 \text { 时, } l_{x 2}=\frac{27}{15} \mathrm{~m}</script><script type="math/tex; mode=display">\text { 当 } n=5 \text { 时, } l_{x 3}=\frac{41}{15} \mathrm{~m}</script><hr>
+<p><img src="/2022/01/24/0106phy/21.png"><br>21.(1)M带正电<br>由 </p>
+<script type="math/tex; mode=display">E=\frac{1}{2} B_{1} \omega r^{2} \quad</script><p>得 </p>
+<script type="math/tex; mode=display">Q=C U=C \frac{E}{2}=0.54 \mathrm{C}</script><p>(电容器接在电源两端，两侧电压为路端电压)</p>
+<p>(2)放电 </p>
+<script type="math/tex; mode=display">B_{2} l_{1} \Delta Q=m v_{1}</script><p>碰撞 </p>
+<script type="math/tex; mode=display">m v_{1}=(m+m) v_{2}</script><p>上升至最高</p>
+<script type="math/tex; mode=display">\frac{1}{2} 2 m v_{2}^{2}=2 m g h</script><p>联立得</p>
+<script type="math/tex; mode=display">\Delta Q=\frac{2 m}{B_{2} l_{1}} \sqrt{2 g h}=0.16 \mathrm{C}</script><p>(3)三步走：<br>①假设第一次能完全进入磁场<br>由</p>
+<script type="math/tex; mode=display">- \frac{B_{2}^{2} l_{1}^{2} l_{3}}{2 R}=2 m (v_{3} - v_{2}）</script><p>得</p>
+<script type="math/tex; mode=display">v_{3}=0.75 \mathrm{~m} / \mathrm{s}</script><p>假设成立，故</p>
+<script type="math/tex; mode=display">x_{1}=l_{3}=0.08 \mathrm{~m}</script><p>②然后匀速运动 </p>
+<script type="math/tex; mode=display">x_{2}=l_{3}-l_{2}=0.012 \mathrm{~m}</script><p>③假设第三次不能完全穿出磁场（其实很显然，不然为什么让你算位移）<br>由</p>
+<script type="math/tex; mode=display">- \frac{B_{2}^{2} l_{1}^{2} x_{3}}{2 R}=2 m (0 - v_{3}）</script><p>得</p>
+<script type="math/tex; mode=display">x_{3}=0.048 \mathrm{~m} < l_{3}</script><p>假设成立，故</p>
+<script type="math/tex; mode=display">x=x_{1} + x_{2} + x_{3}=0.14 \mathrm{~m}</script><hr>
+<p><img src="/2022/01/24/0106phy/22.png"><br>22.<font color="#ee0000">个人觉得是全卷最大亮点</font><br>(1) 光电效应方程 </p>
+<script type="math/tex; mode=display">E_{\mathrm{km}}=h v-W_{0}</script><p>由</p>
+<script type="math/tex; mode=display">\frac{1}{2} m v_{O}^{2}=E_{\mathrm{k}}+e U \quad\left(0 \leqslant E_{\mathrm{k}} \leqslant E_{\mathrm{km}}\right)</script><p>解得</p>
+<script type="math/tex; mode=display">\sqrt{\frac{2 e U}{m}} \leqslant v_{O} \leqslant \sqrt{\frac{2\left(h_{v}+e U-W_{0}\right)}{m}}</script><p>(2) 要看出Ⅰ是一个速度选择器！（电场力向外，磁场力向里，要能使电子在纸面内通过那就得二力平衡）<br>由</p>
+<script type="math/tex; mode=display">\quad e v_{0} B_{1}=e E \quad</script><p>得</p>
+<script type="math/tex; mode=display">v_{O}=\frac{E}{B_{1}}=\sqrt{\frac{3 e U}{m}}</script><p>极板中加速</p>
+<script type="math/tex; mode=display">\frac{1}{2} m v_{O}^{2}-\frac{1}{2} m v_{\mathrm{M}}^{2}=e U \quad</script><p>得</p>
+<script type="math/tex; mode=display">v_{\mathrm{M}}=\sqrt{\frac{e U}{m}}</script><p>然后把Ⅰ当空气，剩下的是不是赤裸裸的轴对称图形！<br><img src="/2022/01/24/0106phy/22(1).png"><br>如图所示, 由几何关系 </p>
+<script type="math/tex; mode=display">\frac{m v_{O}}{e B_{2}} \sin \alpha=\frac{a}{2}</script><p>得</p>
+<script type="math/tex; mode=display">\sin \alpha=\frac{\sqrt{3}}{6}</script><p>注意，还没做完！要求的是刚逸出时的速度方向，而在两极板间加速时速度方向改变！<br><img src="/2022/01/24/0106phy/22(2).png" width="50%"><br>抓住竖直分量始终未变，有</p>
+<script type="math/tex; mode=display">v_{\mathrm{M}} \sin \beta=v_{O} \sin \alpha</script><p>解得</p>
+<script type="math/tex; mode=display">\sin \beta=\frac{1}{2} , \beta=30^{\circ}</script><p>(3) ①E最大即速度最大，对应以$E_{\mathrm{km}}$逸出的电子</p>
+<p>由(1)(2)易得</p>
+<script type="math/tex; mode=display">\quad E_{\max }=B_{1} \sqrt{\frac{2\left(h v+e U-W_{0}\right)}{m}}</script><p>②B最大即半径最小，则速度偏角最大，则y分量最大，对应以$E_{\mathrm{km}}$且<font color="#ee0000">沿y方向</font>逸出的电子</p>
+<p>由(1)(2)及 <font color="#ee0000">$v<em>{M}=v</em>{My}=v<em>{Oy}=v</em>{O} \sin \alpha \leqslant \sqrt{\frac{2\left(h v-W_{0}\right)}{m}}$ </font></p>
+<p>解得 </p>
+<script type="math/tex; mode=display">B_{2 \max }=\frac{2 \sqrt{2 m\left(h v-W_{0}\right)}}{e a}</script><font color="#ee0000">【最后把E和B的答案和第二小题题干中的数据比对一样，如果形式一致（其实就是比对量纲），那说明你在庞大的字母运算中没有漏抄什么】</font>
+
+
+
+<hr>
+]]></content>
       <categories>
-          
-          <category> 高中 </category>
-          
+        <category>高中</category>
       </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2022年1月浙江省普通高等学校招生全国统一考试物理(选考)试题解析</title>
-      <link href="/2022/01/24/0106phy/"/>
-      <url>/2022/01/24/0106phy/</url>
-      
-        <content type="html"><![CDATA[<p>2022年1月浙江省普通高等学校招生全国统一考试物理(选考)试题解析<br>本文含较多图片及公式，首次加载时间可能较长。</p><span id="more"></span> <blockquote><p>2023/01/18 后记：<del>现在看那时候的 markdown 排版真是依托答辩 (x</del> </p></blockquote><h2 id="正文部分"><a href="#正文部分" class="headerlink" title="正文部分"></a>正文部分</h2><p><img src="/2022/01/24/0106phy/1.png"><br>1.A </p><script type="math/tex; mode=display">F=\frac{W}{l}</script><hr><p><img src="/2022/01/24/0106phy/2.png"><br>2.B<br>B.如发旋转球</p><hr><p><img src="/2022/01/24/0106phy/3.png"><br>3.B</p><script type="math/tex; mode=display">F=B I L</script><hr><p><img src="/2022/01/24/0106phy/4.png"><br>4.D<br>不做解释。</p><hr><p><img src="/2022/01/24/0106phy/5.png"><br>5.B<br>由 <script type="math/tex">\operatorname{T} \cos \theta-\mu(m g-\operatorname{Tsin}\theta)=0</script><br>得<script type="math/tex">\operatorname{T}=\frac{\mu m g}{\cos \theta+\mu \sin \theta}</script><br>（注意问的是<font color="#ee0000">合</font>拉力）</p><hr><p><img src="/2022/01/24/0106phy/6.png"><br>6.B<br>不做解释。</p><hr><p><img src="/2022/01/24/0106phy/7.png"><br>7.D<br>对P、Q整体，由二力平衡知D成立。</p><hr><p><img src="/2022/01/24/0106phy/8.png"><br>8.C<br>A.脱离地球引力，则<script type="math/tex">v \geqslant 11.2 \mathrm{~km} / \mathrm{s}</script> </p><p>B.半个周期，且周期大于地球公转周期12个月<br>C.由开普勒第三定律知成立<br>D.在地火转移轨道Q点速度 小于 在火星轨道Q点速度(因为要加速变轨) 小于 在地球轨道速度(开三) </p><hr><p><img src="/2022/01/24/0106phy/9.png"><br> 9.A  <font size="2" color="#ee0000">个人认为是好题目</font><br>A.<font color="#ee0000">看图 </font> ，铁屑等距平行<br>B.<font color="#ee0000">看图 </font> ，铁屑弯弯曲曲<br>C.<font color="#ee0000">D的暗示，没说匀速</font><br>D.正弦交流电要求是匀强磁场</p><hr><p><img src="/2022/01/24/0106phy/10.png"><br>10.C<br>A.为电场线<br>B.看疏密<br>C.两条等势线的差额当然比小于两条等势线的差额大咯<br>D.只考虑初末位置（电场力为保守力），不在一条等势线上，电势改变，电场力做功</p><hr><p><img src="/2022/01/24/0106phy/11.png"><br>11.B<br>A.C.等于（反射，反射角和入射角相等）<br>B.<font color="#ee0000"> 不妨这样想：入射角从<script type="math/tex">0^{\circ} \rightarrow 90^{\circ}</script> ，反射角只能从<script type="math/tex">0^{\circ} \rightarrow C</script>(临界角) ，入射角比反射角变得快 </font><br>D.由B知小于</p><hr><p><img src="/2022/01/24/0106phy/12.png"><br>12.D<br>A.B.考虑1s,有2kg水。$W=E<em>{p}+E</em>{k}=75J+225J=300J$<br>C.D.一定要想清楚你的研究对象是谁！<br>C. “电动机的输出功率等于水泵所需要的输入功率”，<font color="#ee0000"> 对 <del>水泵</del> 电动机 </font> ，水泵输入功率=电动机输出功率&lt;电动机输入功率=440W<br>D.<font color="#ee0000">对电动机</font> ，输入440W，输出300W/(75%)=400W，故热功率<script type="math/tex">P=40 W=I^{2} R</script>，解得 <script type="math/tex">R=10\Omega</script></p><hr><p><img src="/2022/01/24/0106phy/13.png"><br>13.C <font color="#ee0000">要通过判断电流流向来确定等效电阻R的计算式。</font><br>A.顺时针<br>B.<center> $\varepsilon=\frac{\Delta B}{\Delta t} \cdot S=k \cdot \pi r^{2}$ </center><br>C.由</p><script type="math/tex; mode=display">R=\rho \frac{L}{S}=\rho \frac{2 \pi r}{h d}</script><p>得</p><script type="math/tex; mode=display">P=\frac{\varepsilon^{2}}{R}=\frac{\pi d h k^{2} r^{3}}{2 \rho}</script><p>D.安培力各向抵消，则拉力始终等于重力</p><hr><p><img src="/2022/01/24/0106phy/14.png"><br>14.CD<br>A.核裂变<br>B.<font color="#ee0000">题干疯狂暗示, “提高能源利用率”“供热”</font>，故m&gt;&gt;27.6kg<br>C.D.对</p><hr><p><img src="/2022/01/24/0106phy/15.png"><br>15.BD<br>老老实实画四张图就行了，注意C中形状正确，但波谷应更低</p><hr><p><img src="/2022/01/24/0106phy/16.png"><br>16.BD</p><p>A. $ E_{k}=\frac{p^{2}}{2 m}=8.0 \times  10^{-17} J $</p><p>B. $ \lambda=\frac{h}{p}=5.5 \times 10^{-11} \mathrm{~m} $</p><p>C.D.波动性的体现并不依赖于粒子性</p><hr><p><img src="/2022/01/24/0106phy/17(1).png"><br>17(1).①C<br>②D<br>③确保多次运动的轨迹相同 </p><p><img src="/2022/01/24/0106phy/17(2).png"><br>(2).①C<br>②0.200<br>碰撞前p=0.202，碰撞后pA=0.040，pB=0.240；动量不可能增加，故p’=pB<font color="#ee0000">-</font>pA=0.200</p><hr><p><img src="/2022/01/24/0106phy/18.png"><br>18.(1)0~20Ω  ；<br>(2)1.31~1.34 ；<br>(3)$0.96 \times 10^{-6} \sim 1.0 \times 10^{-6}$ ；</p><p>(4)小于。（斜率相当于是电阻的反映，甲电阻大，故甲横截面积小）</p><hr><p><img src="/2022/01/24/0106phy/19.png"><br>19.(1) $A B$ 段，由</p><script type="math/tex; mode=display">v_{1}^{2}=2 a_{1} x_{1}</script><p>解得 </p><script type="math/tex; mode=display">a_{1}=\frac{8}{3} \mathrm{~m} / \mathrm{s}^{2}</script><p>(2) $A B$ 段，由 </p><script type="math/tex; mode=display">v_{1}=a_{1} t_{1}</script><p>得 </p><script type="math/tex; mode=display">t_{1}=3 \mathrm{~s}</script><p>$B C$ 段，由</p><script type="math/tex; mode=display">x_{2}=v_{1} t_{2}+\frac{1}{2} a_{2} t_{2}^{2}</script><p>解得 </p><script type="math/tex; mode=display">a_{2}=2 \mathrm{~m} / \mathrm{s}^{2}</script><p>故</p><script type="math/tex; mode=display">v=v_{1}+a_{2} t_{2}=12 \mathrm{~m} / \mathrm{s}</script><p>(3) 由</p><script type="math/tex; mode=display">m g \sin \theta-F_f=m a_{2}</script><p>解得 </p><script type="math/tex; mode=display">F_{f}=66 \mathrm{~N}</script><hr><p><img src="/2022/01/24/0106phy/20.png"><br>20.(1) 到 $C$ 点过程 </p><script type="math/tex; mode=display">\quad m g l \sin 37^{\circ}+m g R\left(1-\cos 37^{\circ}\right)=\frac{1}{2} m v_{\mathrm{C}}^{2}</script><p>$C$ 点时 </p><script type="math/tex; mode=display">F_{\mathrm{N}}=m g+m \frac{v_{\mathrm{C}}^{2}}{R}=7 \mathrm{~N}</script><p>(2) 能过 $F$ 点，只要过最高点(v=0)。<br>由</p><script type="math/tex; mode=display">\operatorname{mg}(l_{x} \sin 37^{\circ}-3 R \cos 37^{\circ}-R)=0</script><p>解得 </p><script type="math/tex; mode=display">l_{x} \geqslant 0.85 \mathrm{~m}</script><p>到 $F$ 点过程 </p><script type="math/tex; mode=display">m g l_{x} \sin 37^{\circ}-4 m g R \cos 37^{\circ}=\frac{1}{2} m v^{2}</script><p>解得</p><script type="math/tex; mode=display">v=\sqrt{12 l_{x}-9.6} ( l_{x} \geqslant 0.85 \mathrm{~m} ）</script><p>(3) 设摩擦力做功为第一次到达中点时的$n$倍。<br>由</p><script type="math/tex; mode=display">m g l_{x} \sin 37^{\circ}-m g \frac{l_{\mathrm{FG}}}{2} \sin 37^{\circ}-n_{\mu} m g \frac{l_{\mathrm{FG}}}{2} \cos 37^{\circ}=0</script><p>解得 </p><script type="math/tex; mode=display">l_{x}=\frac{7 n+6}{15} (h_{n} \leqslant 3 \mathrm{~m})</script><p>对n一一列举，（但n一定是奇数，画图便知。）</p><script type="math/tex; mode=display">\text { 当 } n=1 \text { 时, } l_{x 1}=\frac{13}{15} \mathrm{~m}</script><script type="math/tex; mode=display">\text { 当 } n=3 \text { 时, } l_{x 2}=\frac{27}{15} \mathrm{~m}</script><script type="math/tex; mode=display">\text { 当 } n=5 \text { 时, } l_{x 3}=\frac{41}{15} \mathrm{~m}</script><hr><p><img src="/2022/01/24/0106phy/21.png"><br>21.(1)M带正电<br>由 </p><script type="math/tex; mode=display">E=\frac{1}{2} B_{1} \omega r^{2} \quad</script><p>得 </p><script type="math/tex; mode=display">Q=C U=C \frac{E}{2}=0.54 \mathrm{C}</script><p>(电容器接在电源两端，两侧电压为路端电压)</p><p>(2)放电 </p><script type="math/tex; mode=display">B_{2} l_{1} \Delta Q=m v_{1}</script><p>碰撞 </p><script type="math/tex; mode=display">m v_{1}=(m+m) v_{2}</script><p>上升至最高</p><script type="math/tex; mode=display">\frac{1}{2} 2 m v_{2}^{2}=2 m g h</script><p>联立得</p><script type="math/tex; mode=display">\Delta Q=\frac{2 m}{B_{2} l_{1}} \sqrt{2 g h}=0.16 \mathrm{C}</script><p>(3)三步走：<br>①假设第一次能完全进入磁场<br>由</p><script type="math/tex; mode=display">- \frac{B_{2}^{2} l_{1}^{2} l_{3}}{2 R}=2 m (v_{3} - v_{2}）</script><p>得</p><script type="math/tex; mode=display">v_{3}=0.75 \mathrm{~m} / \mathrm{s}</script><p>假设成立，故</p><script type="math/tex; mode=display">x_{1}=l_{3}=0.08 \mathrm{~m}</script><p>②然后匀速运动 </p><script type="math/tex; mode=display">x_{2}=l_{3}-l_{2}=0.012 \mathrm{~m}</script><p>③假设第三次不能完全穿出磁场（其实很显然，不然为什么让你算位移）<br>由</p><script type="math/tex; mode=display">- \frac{B_{2}^{2} l_{1}^{2} x_{3}}{2 R}=2 m (0 - v_{3}）</script><p>得</p><script type="math/tex; mode=display">x_{3}=0.048 \mathrm{~m} < l_{3}</script><p>假设成立，故</p><script type="math/tex; mode=display">x=x_{1} + x_{2} + x_{3}=0.14 \mathrm{~m}</script><hr><p><img src="/2022/01/24/0106phy/22.png"><br>22.<font color="#ee0000">个人觉得是全卷最大亮点</font><br>(1) 光电效应方程 </p><script type="math/tex; mode=display">E_{\mathrm{km}}=h v-W_{0}</script><p>由</p><script type="math/tex; mode=display">\frac{1}{2} m v_{O}^{2}=E_{\mathrm{k}}+e U \quad\left(0 \leqslant E_{\mathrm{k}} \leqslant E_{\mathrm{km}}\right)</script><p>解得</p><script type="math/tex; mode=display">\sqrt{\frac{2 e U}{m}} \leqslant v_{O} \leqslant \sqrt{\frac{2\left(h_{v}+e U-W_{0}\right)}{m}}</script><p>(2) 要看出Ⅰ是一个速度选择器！（电场力向外，磁场力向里，要能使电子在纸面内通过那就得二力平衡）<br>由</p><script type="math/tex; mode=display">\quad e v_{0} B_{1}=e E \quad</script><p>得</p><script type="math/tex; mode=display">v_{O}=\frac{E}{B_{1}}=\sqrt{\frac{3 e U}{m}}</script><p>极板中加速</p><script type="math/tex; mode=display">\frac{1}{2} m v_{O}^{2}-\frac{1}{2} m v_{\mathrm{M}}^{2}=e U \quad</script><p>得</p><script type="math/tex; mode=display">v_{\mathrm{M}}=\sqrt{\frac{e U}{m}}</script><p>然后把Ⅰ当空气，剩下的是不是赤裸裸的轴对称图形！<br><img src="/2022/01/24/0106phy/22(1).png"><br>如图所示, 由几何关系 </p><script type="math/tex; mode=display">\frac{m v_{O}}{e B_{2}} \sin \alpha=\frac{a}{2}</script><p>得</p><script type="math/tex; mode=display">\sin \alpha=\frac{\sqrt{3}}{6}</script><p>注意，还没做完！要求的是刚逸出时的速度方向，而在两极板间加速时速度方向改变！<br><img src="/2022/01/24/0106phy/22(2).png" width="50%"><br>抓住竖直分量始终未变，有</p><script type="math/tex; mode=display">v_{\mathrm{M}} \sin \beta=v_{O} \sin \alpha</script><p>解得</p><script type="math/tex; mode=display">\sin \beta=\frac{1}{2} , \beta=30^{\circ}</script><p>(3) ①E最大即速度最大，对应以$E_{\mathrm{km}}$逸出的电子</p><p>由(1)(2)易得</p><script type="math/tex; mode=display">\quad E_{\max }=B_{1} \sqrt{\frac{2\left(h v+e U-W_{0}\right)}{m}}</script><p>②B最大即半径最小，则速度偏角最大，则y分量最大，对应以$E_{\mathrm{km}}$且<font color="#ee0000">沿y方向</font>逸出的电子</p><p>由(1)(2)及 <font color="#ee0000">$v<em>{M}=v</em>{My}=v<em>{Oy}=v</em>{O} \sin \alpha \leqslant \sqrt{\frac{2\left(h v-W_{0}\right)}{m}}$ </font></p><p>解得 </p><script type="math/tex; mode=display">B_{2 \max }=\frac{2 \sqrt{2 m\left(h v-W_{0}\right)}}{e a}</script><font color="#ee0000">【最后把E和B的答案和第二小题题干中的数据比对一样，如果形式一致（其实就是比对量纲），那说明你在庞大的字母运算中没有漏抄什么】</font><hr>]]></content>
-      
-      
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/01/08/hello-world/</url>
+    <content><![CDATA[]]></content>
       <categories>
-          
-          <category> 高中 </category>
-          
+        <category>其它</category>
+        <category>helloWorldPage</category>
       </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2022/01/08/hello-world/"/>
-      <url>/2022/01/08/hello-world/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【置底】临时文件库</title>
+    <url>/2022/04/24/trans/</url>
+    <content><![CDATA[<p>↓↓↓</p>
+<span id="more"></span>
+<p>暂无</p>
+]]></content>
       <categories>
-          
-          <category> 其它 </category>
-          
-          <category> helloWorldPage </category>
-          
+        <category>其它</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+  </entry>
 </search>
