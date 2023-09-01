@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>数/物/化/生 高中笔记分享</title>
+    <url>/2022/01/27/notes/</url>
+    <content><![CDATA[<p>↓↓↓</p>
+<span id="more"></span>
+<p>物理 / 生物 / 化学 / 数学 笔记预览（加载较慢，可移步文末网盘链接下载）：</p>
+<hr>
+<p>物理</p>
+<div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/phynotes.pdf" data-height="500px"></div>
+<hr>
+<p>生物</p>
+<div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/bionotes.pdf" data-height="500px"></div>
+<hr>
+<p>化学</p>
+<div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/chemnotes.pdf" data-height="500px"></div>
+<hr>
+<p>数学</p>
+<div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/mathnotes.pdf" data-height="500px"></div>
+<hr>
+<p>网盘链接：</p>
+<p>百度云： <a href="https://pan.baidu.com/s/1UmMwDS-qGdEsH7dfadckdQ">https://pan.baidu.com/s/1UmMwDS-qGdEsH7dfadckdQ</a> 提取码0412</p>
+<p>阿里云： <a href="https://www.aliyundrive.com/s/QiBAPebQsfx">https://www.aliyundrive.com/s/QiBAPebQsfx</a> </p>
+<p><strong>禁止</strong>任何形式的传播。</p>
+<hr>
+]]></content>
+      <categories>
+        <category>高中</category>
+      </categories>
+  </entry>
+  <entry>
     <title>2022年1月浙江省普通高等学校招生全国统一考试物理(选考)试题解析</title>
     <url>/2022/01/24/0106phy/</url>
     <content><![CDATA[<p>2022年1月浙江省普通高等学校招生全国统一考试物理(选考)试题解析<br>本文含较多图片及公式，首次加载时间可能较长。</p>
@@ -107,107 +136,6 @@
 
 
 
-<hr>
-]]></content>
-      <categories>
-        <category>高中</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>2023 暑假记录</title>
-    <url>/2023/07/18/2022-2023-summer/</url>
-    <content><![CDATA[<p>时隔一年，博客，启动！</p>
-<span id="more"></span>
-<hr>
-<p>事情是这样的，这假放的我一天比一天颓，就比如昨天一整天看了一小时左右就能看完的十来页书。</p>
-<blockquote>
-<p>7月01日 新开这本 Artin 的 Algebra，也为了督促自己下个学期多下些苦功。</p>
-<p>……</p>
-<p>7月13日 摆烂。</p>
-<p>7月14日 摆烂。</p>
-<p>7月15日 摆烂。</p>
-<p>7月17日 Sayon 啊 Sayon！你怎么能如此堕落！先前订下的学习计划你都忘了吗？子曰：“吾日三省吾身。”  …… 不能再这样下去了！</p>
-<p>7月18日 摆烂。</p>
-<p>7月19日 摆烂。</p>
-</blockquote>
-<p><del>这样下去不行的，不如我们 ……</del> 于是我决定从今天起每天 update 点内容。</p>
-<hr>
-<h2 id="7月18日"><a href="#7月18日" class="headerlink" title="7月18日"></a>7月18日</h2><p>上午有课（基础学科交叉实践课程 - 深度学习框架与图形学编程实践），讲了图形学基础。的确讲的是很基础的内容，但也了解了很多。</p>
-<p>下午宿舍楼断电检修，太热了也没心情，半梦半醒地睡了个下午觉。睡醒后开始看 ODE ，看了存在性定理那一节，解对参数和初始值的连续性。六点左右就吃饭去了。</p>
-<p>晚饭吃好又开始照例的摆烂。七点半/八点左右终于开始学习了，看 Algebra，对称那一章，平面的等距。感觉应该并不难啊，几何意义也挺清楚，但就是不知道为什么看的这么慢。看样子基础不牢地动山摇了x</p>
-<p>看到十点多的样子，然后又开始磨洋工磨到快十一点。开始写贵系暑培 Python 的作业。挺简单，学了几个库。效率奇低的到了一点多才写好基本要求和一个 tikz 的 GUI 界面。明天打算再学推荐的 streamlit 第三方库写 GUI。</p>
-<p>睡了，明天早上看样子又没了。</p>
-<hr>
-<h2 id="7月19日"><a href="#7月19日" class="headerlink" title="7月19日"></a>7月19日</h2><p>果不其然，十点的闹铃，将近十一点才从从床上爬下来。迷迷糊糊刚醒的时候玩手机的习惯也得改了，要清醒也不是这样清的！给昨天的 Python 作业改了改说明文档，就去吃中饭了。</p>
-<p>下午一点左右开始写 streamlit 的 GUI。被这个库实时更新的特性搞死，框架很快写好然后 debug 半天搞不定。下午心态是炸的，原本给这种事情并没分配多少时间，毕竟昨天基本都解决了。</p>
-<p>结果在交作业的时候又出了问题， git 基础不牢地动山摇。搞得我晚饭都没吃。做了相应的笔记，弄到七点多结束了。这大大超出预算了哈！看来今天数学是没得学咯。然后去看了点 LSGAN 的 Jittor 教程，包括转出去又学了遍几种损失函数。到八点半去了桃李吃<del>夜宵</del>晚饭。</p>
-<p>回来后摆烂到睡觉。</p>
-<hr>
-<h2 id="7月20日"><a href="#7月20日" class="headerlink" title="7月20日"></a>7月20日</h2><p>上午上课，讲了图像理解（图像分类、图像检测、图像分割）。好难，几乎啥都没学到，<del>一定要说学了什么那就听到了几个名词。</del></p>
-<p>睡了个午觉，没定闹铃直接睡到三点半，四点左右才基本清醒过来。开始做这次课的作业（ADE20K 数据集上的语义分割）。又没吃晚饭。九点半挂着模型在训，人去桃李吃晚饭还是夜宵（怎么和昨天这么像啊）。十一点多准备学点数学，但好像没什么心思，一小时只看了 ODE 的一小节（频繁拿起放下手机x）。</p>
-<hr>
-<h2 id="7月21日"><a href="#7月21日" class="headerlink" title="7月21日"></a>7月21日</h2><blockquote>
-<p>今天真有点摆烂了 …</p>
-</blockquote>
-<p>无所事事到吃中饭时间。</p>
-<p>下午。感觉原来的模型废了，准备用预训练模型，用 resnet 作为 backbone。要命的是训练速度一下子慢了很多（可能 resnet101 参数量爆炸了），训到晚上感觉降得不快就放弃了，<del>还是继续让老东西爆金币。</del> </p>
-<p>吃完晚饭去隔壁坐了会，然后回来开始水群（其实下午也在水，去隔壁时也在水）… 翻开 ODE ，没看多少，贵系暑培开始上课，讲 Numpy 和 matplotlib ，虽然大概都会，但还是边看书边听了。但我这人就是明显的多线程废物，结果两样都没学多少。下课后继续看 ODE ，只稍微往下了一点点。不想看了，然后去看 Algebra，隔了一天有点忘了就又看了看前面，然后看到十二点也就看下去三四页。。。</p>
-<p>又测了下模型，每个 batch 的 mIoU 基本上在 0.2 - 0.3 左右吧，最好的有个 0.41 。平均下来肯定还没到要求。不知道再训下去还会不会有用，晚上还是挂着吧。</p>
-<p>明天又有课，又有作业，听说这最后 4 次作业都不会简单。完，这下都堆起来了，啥都干不成。</p>
-<hr>
-<h2 id="7月22日"><a href="#7月22日" class="headerlink" title="7月22日"></a>7月22日</h2><blockquote>
-<p>没有最摆，只有更摆。</p>
-</blockquote>
-<p>上午讲了 GAN ，因为所有内容要压着讲完，所以只是很粗的过了一下基本思想和发展，可以说啥都没学到，要学自然得自己课后一块块地去学。但这次必选作业竟然几乎为零，上课就让我们搞定了。虽然有个选作的加分作业，也就是参加 Jittor 的那个比赛，自然是太菜了也不会去做的。</p>
-<p>从下午摆到晚上，啥都没干。</p>
-<hr>
-<h2 id="7月23日"><a href="#7月23日" class="headerlink" title="7月23日"></a>7月23日</h2><p>我 tm 摆摆摆摆摆摆摆摆摆！一天就看了没几页 Algebra （一小时左右的量）。这两天只能当给自己放了个假吧。</p>
-<hr>
-<h2 id="7月24日"><a href="#7月24日" class="headerlink" title="7月24日"></a>7月24日</h2><p>今天比前两天好些，但总体还是摆了。</p>
-<p>上午只把 ODE 首次积分余下的一点点点看完了。下午又耍到两三点还是三四点，然后很粗的看了一下 Conditional GAN 的实现，然后看了暑培 Numpy 和 matplotlib 的讲义或文档。吃完晚饭回来不知道怎么回事感觉 mIoU 的计算总还是不太好，都没用混淆矩阵，重写了个。还是到不了标准。十点多准备把 Algebra 这一周还是两周看的东西记一下笔记，结果回顾完一遍就零点多了（看的时候又在摸）。</p>
-<hr>
-<h2 id="7月25日"><a href="#7月25日" class="headerlink" title="7月25日"></a>7月25日</h2><p>上午上课，讲几何深度学习，几乎半点懂不了😢。下午看直播两个多小时看到三点，又睡了个觉，四点才开始学。到晚上一共 n 个小时只把昨天回顾完的内容做了笔记，不知道什么效率。</p>
-<p>明天要记 ODE 这几天看的内容的笔记（虽然原本今天甚至昨天就打算记好2333），然后得把思政实践的分派任务做了。</p>
-<hr>
-<h2 id="7月26日"><a href="#7月26日" class="headerlink" title="7月26日"></a>7月26日</h2><p>还真只把昨天说的事情做了… 这效率是真有点低。</p>
-<hr>
-<h2 id="7月27日"><a href="#7月27日" class="headerlink" title="7月27日"></a>7月27日</h2><p>上午上课，下午和晚上不知道在干啥（思政任务不断有新要求，返工 &amp; 准备明天验收 &amp; 数学建模翻开书第一页）。</p>
-<hr>
-<h2 id="7月28日-7月30日"><a href="#7月28日-7月30日" class="headerlink" title="7月28日-7月30日"></a>7月28日-7月30日</h2><p>没干什么，上课 &amp; 跑大作业baseline &amp; 看了篇论文 &amp; 实践出发前准备 &amp; 去实践。</p>
-<hr>
-<h2 id="7月31日-8月13日"><a href="#7月31日-8月13日" class="headerlink" title="7月31日-8月13日"></a>7月31日-8月13日</h2><p>在实践，没什么可说的，空余时间以及其低下的效率看了点建模。</p>
-<hr>
-<h2 id="8月14日-8月17日"><a href="#8月14日-8月17日" class="headerlink" title="8月14日-8月17日"></a>8月14日-8月17日</h2><p>刚回学校，一直没状态，摆。</p>
-<hr>
-<h2 id="8月18日"><a href="#8月18日" class="headerlink" title="8月18日"></a>8月18日</h2>]]></content>
-      <categories>
-        <category>生活</category>
-        <category>假期</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>数/物/化/生 高中笔记分享</title>
-    <url>/2022/01/27/notes/</url>
-    <content><![CDATA[<p>↓↓↓</p>
-<span id="more"></span>
-<p>物理 / 生物 / 化学 / 数学 笔记预览（加载较慢，可移步文末网盘链接下载）：</p>
-<hr>
-<p>物理</p>
-<div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/phynotes.pdf" data-height="500px"></div>
-<hr>
-<p>生物</p>
-<div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/bionotes.pdf" data-height="500px"></div>
-<hr>
-<p>化学</p>
-<div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/chemnotes.pdf" data-height="500px"></div>
-<hr>
-<p>数学</p>
-<div class="pdfobject-container" data-target="https://sssayon.github.io/2022/01/27/notes/mathnotes.pdf" data-height="500px"></div>
-<hr>
-<p>网盘链接：</p>
-<p>百度云： <a href="https://pan.baidu.com/s/1UmMwDS-qGdEsH7dfadckdQ">https://pan.baidu.com/s/1UmMwDS-qGdEsH7dfadckdQ</a> 提取码0412</p>
-<p>阿里云： <a href="https://www.aliyundrive.com/s/QiBAPebQsfx">https://www.aliyundrive.com/s/QiBAPebQsfx</a> </p>
-<p><strong>禁止</strong>任何形式的传播。</p>
 <hr>
 ]]></content>
       <categories>
