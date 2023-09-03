@@ -3,7 +3,37 @@
   <entry>
     <title>Hello World</title>
     <url>/2022/01/08/hello-world/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>↓↓↓</p>
+<span id="more"></span>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Col1</th>
+<th>Col2</th>
+<th>Col3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>112</td>
+<td>test</td>
+<td>中文</td>
+</tr>
+<tr>
+<td>2342</td>
+<td>af</td>
+<td>啊</td>
+</tr>
+<tr>
+<td>546</td>
+<td>awa</td>
+<td>对</td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content>
       <categories>
         <category>其它</category>
         <category>helloWorldPage</category>
@@ -13,9 +43,20 @@
       </tags>
   </entry>
   <entry>
+    <title>【置底】临时检索库</title>
+    <url>/2022/04/24/trans/</url>
+    <content><![CDATA[<p>↓↓↓</p>
+<span id="more"></span>
+<p>暂无</p>
+]]></content>
+      <categories>
+        <category>其它</category>
+      </categories>
+  </entry>
+  <entry>
     <title>2022年1月浙江省普通高等学校招生全国统一考试物理(选考)试题解析</title>
     <url>/2022/01/24/0106phy/</url>
-    <content><![CDATA[<p>2022年1月浙江省普通高等学校招生全国统一考试物理(选考)试题解析<br>本文含较多图片及公式，首次加载时间可能较长。</p>
+    <content><![CDATA[<p>2022年1月浙江省普通高等学校招生全国统一考试物理(选考)试题解析</p>
 <span id="more"></span> 
 <blockquote>
 <p>2023/01/18 后记：<del>现在看那时候的 markdown 排版真是依托答辩 (x</del> </p>
@@ -106,16 +147,20 @@
 <script type="math/tex; mode=display">\quad e v_{0} B_{1}=e E \quad</script><p>得</p>
 <script type="math/tex; mode=display">v_{O}=\frac{E}{B_{1}}=\sqrt{\frac{3 e U}{m}}</script><p>极板中加速</p>
 <script type="math/tex; mode=display">\frac{1}{2} m v_{O}^{2}-\frac{1}{2} m v_{\mathrm{M}}^{2}=e U \quad</script><p>得</p>
-<script type="math/tex; mode=display">v_{\mathrm{M}}=\sqrt{\frac{e U}{m}}</script><p>然后把Ⅰ当空气，剩下的是不是赤裸裸的轴对称图形！<br><img src="/2022/01/24/0106phy/22(1).png"><br>如图所示, 由几何关系 </p>
+<script type="math/tex; mode=display">v_{\mathrm{M}}=\sqrt{\frac{e U}{m}}</script><p>然后把Ⅰ当空气，剩下的是不是赤裸裸的轴对称图形！</p>
+<p><img src="/2022/01/24/0106phy/22(1).png"></p>
+<p>如图所示, 由几何关系 </p>
 <script type="math/tex; mode=display">\frac{m v_{O}}{e B_{2}} \sin \alpha=\frac{a}{2}</script><p>得</p>
 <script type="math/tex; mode=display">\sin \alpha=\frac{\sqrt{3}}{6}</script><p>注意，还没做完！要求的是刚逸出时的速度方向，而在两极板间加速时速度方向改变！<br><img src="/2022/01/24/0106phy/22(2).png" width="50%"><br>抓住竖直分量始终未变，有</p>
 <script type="math/tex; mode=display">v_{\mathrm{M}} \sin \beta=v_{O} \sin \alpha</script><p>解得</p>
 <script type="math/tex; mode=display">\sin \beta=\frac{1}{2} , \beta=30^{\circ}</script><p>(3) ①E最大即速度最大，对应以$E_{\mathrm{km}}$逸出的电子</p>
 <p>由(1)(2)易得</p>
 <script type="math/tex; mode=display">\quad E_{\max }=B_{1} \sqrt{\frac{2\left(h v+e U-W_{0}\right)}{m}}</script><p>②B最大即半径最小，则速度偏角最大，则y分量最大，对应以$E_{\mathrm{km}}$且<font color="#ee0000">沿y方向</font>逸出的电子</p>
-<p>由(1)(2)及 $v<em>{M}=v</em>{My}=v<em>{Oy}=v</em>{O} \sin \alpha \leqslant \sqrt{\frac{2\left(h v-W_{0}\right)}{m}}$ </p>
-<p>解得 </p>
-<script type="math/tex; mode=display">B_{2 \max }=\frac{2 \sqrt{2 m\left(h v-W_{0}\right)}}{e a}</script><font color="#ee0000">【最后把E和B的答案和第二小题题干中的数据比对一样，如果形式一致（其实就是比对量纲），那说明你在庞大的字母运算中没有漏抄什么】</font>
+<p>由(1)(2)及</p>
+<script type="math/tex; mode=display">
+v_{M}=v_{My}=v_{Oy}=v_{O} \sin \alpha \le \sqrt{\frac{2(h v-W_{0})}{m}}</script><p>解得 </p>
+<script type="math/tex; mode=display">
+B_{2 \max }=\frac{2 \sqrt{2 m\left(h v-W_{0}\right)}}{e a}</script><font color="#ee0000">【最后把E和B的答案和第二小题题干中的数据比对一样，如果形式一致（其实就是比对量纲），那说明你在庞大的字母运算中没有漏抄什么】</font>
 
 
 
@@ -127,7 +172,7 @@
   </entry>
   <entry>
     <title>数/物/化/生 高中笔记分享</title>
-    <url>/2022/01/27/notes/</url>
+    <url>/2022/01/27/high-school-notes/</url>
     <content><![CDATA[<p>↓↓↓</p>
 <span id="more"></span>
 <p>物理 / 生物 / 化学 / 数学 笔记预览（加载较慢，可移步文末网盘链接下载）：</p>
@@ -152,17 +197,6 @@
 ]]></content>
       <categories>
         <category>高中</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>【置底】临时检索库</title>
-    <url>/2022/04/24/trans/</url>
-    <content><![CDATA[<p>↓↓↓</p>
-<span id="more"></span>
-<p>暂无</p>
-]]></content>
-      <categories>
-        <category>其它</category>
       </categories>
   </entry>
 </search>
